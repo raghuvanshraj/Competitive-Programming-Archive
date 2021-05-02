@@ -1,0 +1,94 @@
+OPERATING SYSTEMS NOTES :
+
+* MULTI PROGRAMMING :- 
+		* Maximises CPU utilisation.
+		* More than one process is running because A process has I/0 time and CPU time. So scheduling is done to maximise efficient of processes running.
+		* SO CPU Almost never stays idle!
+
+* MULTI - TASKING :-
+		* Multi Tasking is basically Multi Programming with time sharing.
+		* Only one CPU but it switches context between processes very quickly (after a fixed time interval) which gives the illusion that all are executing at the same time.
+		* The task in multiple tasking may refer to multiple threads of the same program.
+		* The idea is to improve the response time and execute multiple processes together.
+
+* MULTI - PROCESSING :-
+		* Two or more CPU’s with a single computer in c…
+
+DBMS NOTES : 
+
+* Disadvantages of a file System : 
+    * Data Redundancy : Repetitive data
+    * Data inconsistency : Data Changed somewhere should also be changed in other places it is used.
+    * Difficulty in Accessing Data : 
+    * Data Isolation
+    * Security Problem
+    * Atomicity
+    * Integrity Problem
+
+* Entity : Entity is an Object.
+    * Entity Set : Similar types of entities grouped together is called Entity Set.
+        * Types of Attributes :
+            * Simple - Composite
+            * Single - MultiValued
+            * Stored - Derived
+
+* Relation : Association b/w two or more entities of same or different entity Set.
+
+* Degree Of A Relationship Set : Means Number of entity Sets participating in the relation.
+    * UNARY
+    * BINARY 
+    * N-ARY
+
+* Mapping Cardinalities / Cardinality Ratio :
+    * Express the number of Entities to which other entity can be related via a relationship.
+        * 1 : 1 ( One to One )
+        * 1 : N ( One to Many )
+        * N : 1 (Many to One )
+        * N : M (Many to Many )
+
+* Functional Dependency :  
+    * f : A —> B  -   This Means that given the value of A There is only one value of B Corresponding to A .
+    * Closure Set is That Set from which you can find the values of all the other attributes. eg :
+        * If :  A->B && B->C  then A->BC hence (A)+
+
+* DO EQUIVALENCE SET OF FUNCTIONAL DEPENDENCIES 
+* DO MINIMAL SET OF FUNCTIONAL DEPENDENCIES 
+
+
+* KEYS : 
+    * Consider A table : -    | A | B | C | And the Dependency A-> BC here We can say A is the key i.e (A)+ = R
+        *  (Key)+ = R (Closure of a Key is R)
+
+* SUPER KEY - (ALL KEYS) Satisfies the relation mentioned above. (Any Key i.e).   - (SO IT BASICALLY IS THE SET OF ALL POSSIBLE KEYS)
+* CANDIDATE KEY - It is the most efficient SUPER KEY . This means that the subset of the candidate key isn’t any super key.
+    * SO BASICALLY IN A Venn diagram CANDIDATE KEY WOULD BE INSIDE SUPER KEY.
+
+* Why Normalization is done : 
+    * Used to reduce redundancy.
+    * Deletion Anomaly : If we want to delete some unwanted data and it lead to the deletion of Some other important data then it is called
+						deletion Anomaly.
+    * Updating Anomaly : When We want to update a piece of information and it has to be updated in all of its Copies.
+
+        * First Normal Form : ( 1NF )
+            * 1 NF states that there should be Atomicity in your DB. ( i.e There Should be only one corresponding value to each tuple )
+        * Second Normal Form : ( 2NF )
+            * Attributes of the candidate key are called prime Attributes.
+            * Attributes not a part of the candidate key are called non prime Attributes.
+                * There Shouldn’t be ANY Partial Dependency :
+                    * When A Non - Prime Attribute instead of depending on all the prime Attributes of a candidate key depends only on some of the attributes
+									Then it is called Partial Dependency.
+        * Third Normal Form : (3NF)
+            * Relation is in 2NF and there is No Transitive Dependency.
+            * Transitive Dependency : if ( A->B && B->C ) 
+									       if A is a prime attribute and B and C are non - prime Attributes then it is called Transitive Dependency.
+
+        * BCNF - A relation R is in BCNF if R is in Third Normal Form and for every Functional Dependency, LHS is super key.
+                    *  A relation is in BCNF iff in every non-trivial functional dependency X –> Y, X is a super key.
+
+JOINS and UNION left————————
+
+* Atomicity : (All or Nothing) : Ensures that a transaction will run to completion as an indivisible unit, at the end of which either no changes have occurred
+							    to the Database or the database has been changed in a consistent manner.
+* Consistency : (A1+B1=A2+B2)Correctness or ensures that if the database was in consistent state before the transaction then it will be in a consistent state after the transaction.
+* Isolation : Indicates that the actions performed by a transaction will be isolated or hidden from outside the transaction until it terminates.
+* Durability : All updates done by a transaction must be permanent.

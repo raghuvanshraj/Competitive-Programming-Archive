@@ -1,0 +1,799 @@
+IMPORTANT PEP CODING QUESTIONS SOME OF WHICH ARE YET TO BE SOLVED:
+
+            
+
+                 											  ARRAYS :
+
+// EXTREMELY IMPORTANT https://practice.geeksforgeeks.org/problems/number-of-subarrays-with-maximum-values-in-given-range/0
+
+
+
+https://www.geeksforgeeks.org/given-an-array-arr-find-the-maximum-j-i-such-that-arrj-arri/  (SHOWS VERY IMPORTANT METHOD) (UNSOLVED)
+
+
+
+https://practice.geeksforgeeks.org/problems/maximum-product-subarray/0
+
+
+
+https://practice.geeksforgeeks.org/problems/minimum-swaps-required-to-bring-all-elements-less-than-or-equal-to-k-together/0
+
+
+
+https://www.geeksforgeeks.org/merging-intervals/
+
+
+
+https://practice.geeksforgeeks.org/problems/maximum-profit/0
+
+
+
+https://www.geeksforgeeks.org/minimize-the-maximum-difference-between-the-heights/
+
+
+
+https://practice.geeksforgeeks.org/problems/largest-sum-subarray-of-size-at-least-k/0
+
+
+
+https://practice.geeksforgeeks.org/problems/number-following-a-pattern/0
+
+
+
+https://practice.geeksforgeeks.org/problems/minimum-number-in-a-sorted-rotated-array/0/?track=PC-W2-SE&batchId=131 (solved)
+
+
+
+https://leetcode.com/problems/next-permutation/description/
+
+
+
+
+
+
+
+————————————————————————————————————————————————————————————————————————
+
+          
+
+													LinkedList :
+
+
+
+https://practice.geeksforgeeks.org/problems/clone-a-linked-list-with-next-and-random-pointer/1 (EXTREMELY IMPORTANT)
+
+
+
+https://practice.geeksforgeeks.org/problems/merge-two-sorted-linked-lists/1  (EXTREMELY IMPORTANT)
+
+
+
+(VERY IMPORTANT): https://www.geeksforgeeks.org/josephus-circle-using-circular-linked-list/ (EXTREMELY IMPORTANT)_
+
+
+
+https://www.geeksforgeeks.org/detect-and-remove-loop-in-a-linked-list/    (SOLVED)
+
+
+
+https://practice.geeksforgeeks.org/problems/sort-a-linked-list/1    (SOLVED)
+
+
+
+https://practice.geeksforgeeks.org/problems/delete-nodes-having-greater-value-on-right/1  (SOLVED)
+
+
+
+https://www.geeksforgeeks.org/flattening-a-linked-list/
+
+
+
+https://www.geeksforgeeks.org/flatten-a-linked-list-with-next-and-child-pointers/ (READ)
+
+
+
+https://www.geeksforgeeks.org/quicksort-on-singly-linked-list/
+
+
+
+https://www.geeksforgeeks.org/linked-list-in-zig-zag-fashion/
+
+
+
+https://www.geeksforgeeks.org/subtract-two-numbers-represented-as-linked-lists/
+
+
+
+https://www.geeksforgeeks.org/find-pair-given-sum-sorted-singly-linked-without-extra-space/
+
+
+
+https://www.geeksforgeeks.org/print-reverse-linked-list-without-extra-space-modifications/
+
+
+
+https://practice.geeksforgeeks.org/problems/multiply-two-linked-lists/1
+
+
+
+
+
+
+
+
+
+————————————————————————————————————————————————————————————————————————
+
+
+
+
+
+         										    Heap / Order Statistics And Hash :
+
+
+
+
+
+https://www.geeksforgeeks.org/sliding-window-maximum-maximum-of-all-subarrays-of-size-k/
+
+
+https://practice.geeksforgeeks.org/problems/smallest-positive-missing-number/0
+
+
+
+https://practice.geeksforgeeks.org/problems/maximum-repeating-number/0
+
+
+
+https://practice.geeksforgeeks.org/problems/surpasser-count/0
+
+
+
+// READ ——> https://www.geeksforgeeks.org/tournament-tree-and-binary-heap/
+
+
+
+https://practice.geeksforgeeks.org/problems/minimum-cost-of-ropes/0
+
+
+
+// READ ———> https://www.geeksforgeeks.org/cuckoo-hashing/
+
+
+
+//  IMPORTANT https://practice.geeksforgeeks.org/problems/array-pair-sum-divisibility-problem/0
+
+
+
+//  IMPORTANT https://practice.geeksforgeeks.org/problems/largest-subarray-with-0-sum/1
+
+
+
+https://www.geeksforgeeks.org/count-distinct-elements-in-every-window-of-size-k/
+
+
+// READ https://www.geeksforgeeks.org/k-maximum-sum-combinations-two-arrays/
+
+
+
+
+
+
+
+————————————————————————————————————————————————————————————————————————
+
+ 
+
+											BACKTRACKING :
+
+
+
+//  IMPORTANT https://www.geeksforgeeks.org/the-knights-tour-problem-backtracking-1/
+
+
+
+//  IMPORTANT https://www.geeksforgeeks.org/remove-invalid-parentheses/
+
+
+
+//  IMPORTANT https://practice.geeksforgeeks.org/problems/word-break-part-2/0
+
+
+
+// IMPORTANT https://www.geeksforgeeks.org/print-palindromic-partitions-string/
+
+
+
+//  IMPORTANT https://www.geeksforgeeks.org/find-shortest-safe-route-in-a-path-with-landmines/
+
+
+
+//  HARD https://www.geeksforgeeks.org/partition-set-k-subsets-equal-sum/
+
+
+
+// IMPORTANT https://www.geeksforgeeks.org/longest-possible-route-in-a-matrix-with-hurdles/
+
+
+
+// IMPORTANT READ https://www.geeksforgeeks.org/match-a-pattern-and-string-without-using-regular-expressions/
+
+
+
+// IMPORTANT READ https://www.geeksforgeeks.org/find-if-there-is-a-path-of-more-than-k-length-from-a-source/
+
+
+
+//  IMPORTANT https://www.geeksforgeeks.org/hamiltonian-cycle-backtracking-6/
+
+
+
+/// IMPORTANT READ https://www.geeksforgeeks.org/tug-of-war/
+
+
+
+// IMPORTANT READ https://www.geeksforgeeks.org/find-paths-from-corner-cell-to-middle-cell-in-maze/
+
+
+
+// HACKERRANK IMPORTANT DO https://www.hackerrank.com/challenges/arithmetic-expressions/problem
+
+
+
+// HACKERRANK IMPORTANT DO https://www.hackerrank.com/challenges/crossword-puzzle/problem
+
+
+
+
+
+————————————————————————————————————————————————————————————————————————
+
+
+
+									STRINGS :(Solved or Not done or Read or important)
+
+
+
+//EXTREMELY IMPORTANT(solved but see again)  https://www.geeksforgeeks.org/find-first-non-repeating-character-stream-characters/  
+
+
+
+// EXTREMELY IMPORTANT https://www.geeksforgeeks.org/rabin-karp-algorithm-for-pattern-searching/ (RABIN KARP ALGO)
+
+
+
+// EXTREMELY IMPORTANT https://www.geeksforgeeks.org/kmp-algorithm-for-pattern-searching/(KMP ALGO)
+
+
+
+// EXTREMELY IMPORTANT https://practice.geeksforgeeks.org/problems/string-formation-from-substring/0 (USING KMP)
+
+
+
+// EXTREMELY IMPORTANT https://www.geeksforgeeks.org/lexicographic-rank-of-a-string/(watch video)
+
+
+
+// SOLVED AND IMPORTANT https://practice.geeksforgeeks.org/problems/generate-binary-string/0
+
+
+
+// UNSOLVED AND VERY VERY IMPORTANT https://practice.geeksforgeeks.org/problems/smallest-window-in-a-string-containing-all-the-characters-of-another-string/0
+
+
+
+// UNSOLVED AND VERY VERY IMPORTANT https://www.geeksforgeeks.org/smallest-window-contains-characters-string/
+
+
+
+// UNSOLVED AND VERY VERY IMPORTANT https://www.geeksforgeeks.org/count-ways-increase-lcs-length-two-strings-one/
+
+
+
+// UNSOLVED https://www.geeksforgeeks.org/longest-palindromic-substring-set-2/
+
+
+
+// READ https://www.geeksforgeeks.org/make-largest-palindrome-changing-k-digits/
+
+
+
+// UNSOLVED AND VERY VERY IMPORTANT https://practice.geeksforgeeks.org/problems/distinct-palindromic-substrings/0
+
+
+
+// IMPORTANT DP/String Question https://practice.geeksforgeeks.org/problems/queries-on-strings/0
+
+
+
+// AMAZING QUESTION (UNSOLVED) https://practice.geeksforgeeks.org/problems/print-all-lcs-sequences/0
+
+
+
+// COMPETITIVE TYPE QUESTION (UNSOLVED) https://practice.geeksforgeeks.org/problems/count-subsequences-of-type-ai-bj-ck/0
+
+
+
+// DP Hard Question (Unsolved) https://practice.geeksforgeeks.org/problems/number-of-subsequences-in-a-string-divisible-by-n/0
+
+
+
+// Solved Good Question https://practice.geeksforgeeks.org/problems/excel-sheet/0
+
+
+
+// UNSOLVED IMPORTANT QUESTION https://practice.geeksforgeeks.org/problems/longest-k-unique-characters-substring/0
+
+
+
+// UNSOLVED AND IMPORTANT https://practice.geeksforgeeks.org/problems/valid-substring/0
+
+
+
+// UNSOLVED AND IMPORTANT https://practice.geeksforgeeks.org/problems/concatenation-of-zig-zag-string-in-n-rows/0
+
+
+
+
+
+————————————————————————————————————————————————————————————————————————
+
+
+
+											MATRIX QUESTIONS 
+
+
+
+// FLOOD FILL IMPORTANT (UNSOLVED) https://www.geeksforgeeks.org/given-matrix-o-x-replace-o-x-surrounded-x/
+
+
+
+// TIC TAC TOE (UNSOLVED) https://practice.geeksforgeeks.org/problems/tic-tac-toe/0
+
+
+
+// UNSOLVED VERY IMPORTANT DP https://practice.geeksforgeeks.org/problems/max-rectangle/1
+
+
+
+// READ KMP APPROACH https://www.geeksforgeeks.org/find-orientation-of-a-pattern-in-a-matrix/
+
+
+
+// SIEVE OF ERATOSTHESTHENES https://practice.geeksforgeeks.org/problems/sieve-of-eratosthenes/0/?ref=self
+
+
+
+
+
+————————————————————————————————————————————————————————————————————————
+
+
+
+										SEARCHING AND SORTING
+
+
+
+// MEDIAN READ https://www.geeksforgeeks.org/median-of-two-sorted-arrays-of-different-sizes/
+
+
+
+// VERY IMPORTANT QUESTION https://www.geeksforgeeks.org/count-triplets-with-sum-smaller-that-a-given-value/
+
+
+
+// READ https://www.geeksforgeeks.org/3-way-quicksort-dutch-national-flag/
+
+
+
+// COUNTING SORT IMPORTANT (SOLVED) https://practice.geeksforgeeks.org/problems/largest-even-number/0
+
+
+
+// RADIX SORT https://practice.geeksforgeeks.org/problems/efficiently-sorting-number-from-0-to-n2-1/0/?ref=self
+
+
+
+// MEDIAN EXTREMELY IMPORTANT https://practice.geeksforgeeks.org/problems/find-median-in-a-stream/0
+
+
+
+// SUBARRAY ZERO SUM EXTREMELY IMPORTANT https://practice.geeksforgeeks.org/problems/zero-sum-subarrays/0
+
+
+
+// WTF https://practice.geeksforgeeks.org/problems/find-duplicates-in-an-array/1
+
+
+
+https://www.geeksforgeeks.org/sort-array-according-count-set-bits/
+
+
+
+// REALLY IMPORTANT https://www.geeksforgeeks.org/minimum-number-swaps-required-sort-array/. (SELECTION SORT USE KAR LIYO, aur graph method checkout kariyo )
+
+
+
+// GOOD QUESTION https://www.geeksforgeeks.org/find-pair-with-greatest-product-in-array/
+
+
+
+
+
+————————————————————————————————————————————————————————————————————————
+
+
+
+										     	GRAPHS
+
+// DETECT A CYCLE IN A “DIRECTED GRAPH”
+
+
+
+// BIPARTITE GRAPH (DO ASAP)
+
+
+
+// EXTREMELY IMPORTANT https://leetcode.com/problems/cheapest-flights-within-k-stops/ (do asap)
+
+
+
+// EXTREMELY IMPORTANT https://www.hackerrank.com/challenges/even-tree/problem (do asap)
+
+
+
+// EXTREMELY IMPORTANT https://practice.geeksforgeeks.org/problems/jumping-numbers/0 (do ASAP)
+
+
+
+// EXTREMELY IMPORTANT https://leetcode.com/problems/course-schedule-ii/discuss/?currentPage=1&orderBy=hot&query= (do asap)
+
+
+
+// EXTREMELY IMPORTANT https://practice.geeksforgeeks.org/problems/alien-dictionary/1/?track=graph&batchId=126 (DO ASAP)
+
+
+
+// EXTREMELY IMPORTANT https://practice.geeksforgeeks.org/problems/jumping-numbers/0 
+
+
+
+// EXTREMELY IMPORTANT https://www.hackerrank.com/challenges/journey-to-the-moon/problem 
+
+
+
+// VERY IMPORTANT https://practice.geeksforgeeks.org/problems/possible-paths/0/?track=graph&batchId=126 (UNSOLVED)
+
+
+
+// VERY IMPORTANT https://practice.geeksforgeeks.org/problems/find-whether-path-exist/0/?track=graph&batchId=126
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+————————————————————————————————————————————————————————————————————————
+
+
+
+											GREEDY
+
+
+
+// READ https://www.geeksforgeeks.org/greedy-algorithm-egyptian-fraction/
+
+
+
+// IMPORTANT BASIC (UNSOLVED) https://practice.geeksforgeeks.org/problems/fractional-knapsack/0
+
+
+
+// VERY  VERY IMPORTANT (UNSOLVED) 
+
+
+
+————————————————————————————————————————————————————————————————————————
+
+
+
+										BINARY TREES
+
+
+
+// EXTREMELY IMPORTANT https://practice.geeksforgeeks.org/problems/nodes-at-given-distance-in-binary-tree/1 (do ASAP)
+
+
+
+// EXTREMELY IMPORTANT https://practice.geeksforgeeks.org/problems/construct-an-expression-tree/1 (do ASAP)
+
+
+
+// EXTREMELY IMPORTANT https://practice.geeksforgeeks.org/problems/serialize-and-deserialize-a-binary-tree/1 (do ASAP)
+
+
+
+/// EXTREMELY IMPORTANT https://practice.geeksforgeeks.org/problems/construct-binary-tree-from-parent-array/1 (do ASAP)
+
+
+
+// EXTREMELY IMPORTANT https://practice.geeksforgeeks.org/problems/maximum-path-sum/1 (do ASAP)
+
+
+
+// VERY IMPORTANT https://practice.geeksforgeeks.org/problems/height-of-spiral-tree/1 (do ASAP)
+
+
+
+// EXTREMELY IMPORTANT https://www.geeksforgeeks.org/lowest-common-ancestor-binary-tree-set-1/
+
+
+
+// EXTREMELY IMPORTANT https://practice.geeksforgeeks.org/problems/reverse-alternate-levels-of-a-perfect-binary-tree/1
+
+
+
+// VERY IMPORTANT https://practice.geeksforgeeks.org/problems/populate-inorder-successor-for-all-nodes/1
+
+
+
+// VERY IMPORTANT https://www.geeksforgeeks.org/find-height-binary-tree-represented-parent-array/
+
+
+
+// VERY IMPORTANT https://practice.geeksforgeeks.org/problems/clone-a-binary-tree/1
+
+
+
+// VERY IMPORTANT (ISSUE WITH TIME) https://practice.geeksforgeeks.org/problems/count-number-of-subtrees-having-given-sum/1
+
+
+
+// VERY VERY IMPORTANT https://practice.geeksforgeeks.org/problems/reverse-alternate-levels-of-a-perfect-binary-tree/1
+
+
+
+// ORDER TRAVERSALS USING STACK (WITHOUT RECURSION) 
+
+
+
+// VERY IMPORTANT (read)—(wtf)  https://www.geeksforgeeks.org/construct-a-special-tree-from-given-preorder-traversal/
+
+
+
+// VERY IMPORTANT (read)—(wtf)  https://www.geeksforgeeks.org/construct-ancestor-matrix-from-a-given-binary-tree/
+
+
+
+//BINARY to DLL. & BNARY TO CIRCULAR DLL(first convert to dll then make circular) https://www.geeksforgeeks.org/in-place-convert-a-given-binary-tree-to-doubly-linked-list/
+
+
+
+//LCA https://www.geeksforgeeks.org/lowest-common-ancestor-binary-tree-set-1/
+
+
+
+// DISTANCE BTW TWO NODES https://www.geeksforgeeks.org/find-distance-between-two-nodes-of-a-binary-tree/
+
+
+
+// IMPORTANT READ https://www.geeksforgeeks.org/connect-nodes-at-same-level-with-o1-extra-space/
+
+
+
+// good question https://www.geeksforgeeks.org/foldable-binary-trees/
+
+
+
+
+
+————————————————————————————————————————————————————————————————————————
+
+
+
+
+
+    										BINARY SEARCH TREES
+
+
+
+// AVL TREES EXTREMELY IMPORTANT https://www.geeksforgeeks.org/avl-tree-set-1-insertion/
+
+
+
+// AVL TREES EXTREMELY IMPORTANT https://www.geeksforgeeks.org/avl-tree-set-2-deletion/
+
+
+
+// EXTREMELY IMPORTANT https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/
+
+
+
+// EXTREMELY IMPORTANT https://practice.geeksforgeeks.org/problems/binary-tree-to-bst/1
+
+
+
+// EXTREMELY IMPORTANT https://practice.geeksforgeeks.org/problems/convert-level-order-traversal-to-bst/1 (do ASAP)
+
+
+
+// EXTREMELY IMPORTANT https://practice.geeksforgeeks.org/problems/fixed-two-nodes-of-a-bst/1 (do ASAP)
+
+
+
+// EXTREMELY IMPORTANT https://practice.geeksforgeeks.org/problems/preorder-traversal-and-bst/0/?ref=self (do ASAP)
+
+
+
+// EXTREMELY IMPORTANT https://www.geeksforgeeks.org/binary-search-tree-set-1-search-and-insertion/ (do ASAP)
+
+
+
+// EXTREMELY IMPORTANT https://practice.geeksforgeeks.org/problems/largest-bst/1
+
+
+
+// EXTREMELY IMPORTANT https://practice.geeksforgeeks.org/problems/add-all-greater-values-to-every-node-in-a-bst/1/?ref=self 
+
+
+
+// EXTREMELY IMPORTANT READ https://www.geeksforgeeks.org/check-for-identical-bsts-without-building-the-trees/
+
+
+
+// EXTREMELY IMPORTANT READ https://www.geeksforgeeks.org/data-structure-for-future-reservations-for-a-single-resource/
+
+
+
+// EXTREMELY IMPORTANT READ https://www.geeksforgeeks.org/find-median-bst-time-o1-space/
+
+
+
+// IMPORTANT READ https://www.geeksforgeeks.org/in-place-convert-bst-into-a-min-heap/
+
+
+
+// IMPORTANT READ https://www.geeksforgeeks.org/kth-smallest-element-in-bst-using-o1-extra-space/
+
+
+
+// IMPORTANT READ https://www.geeksforgeeks.org/merge-two-balanced-binary-search-trees/
+
+
+
+// IMPORTANT READ https://www.geeksforgeeks.org/inorder-predecessor-successor-given-key-bst/
+
+
+
+
+
+————————————————————————————————————————————————————————————————————————
+
+
+
+									 DYNAMIC PROGRAMMING 
+
+
+
+// PAINTERS PARTITION-> ** https://practice.geeksforgeeks.org/problems/the-painters-partition-problem/0/?track=dynamic-programming&batchId=126
+
+
+
+// EXTREMELY EXTREMELY IMPORTANT (BIT MASKING) https://www.geeksforgeeks.org/bitmasking-and-dynamic-programming-set-1-count-ways-to-assign-unique-cap-to-every-person/ 
+
+
+
+// EXTREMELY IMPORTANT https://practice.geeksforgeeks.org/problems/longest-bitonic-subsequence/0 (important basic involveD)
+
+
+
+// EXTREMELY IMPORTANT - > WORD BREAK PROBLEM
+
+
+
+// EXTREMELY IMPORTANT - > Travelling Salesman Problem (do asap)
+
+
+
+// EXTREMELY IMPORTANT - > All-Pairs Shortest Path (do asap)
+
+
+
+// EXTREMELY IMPORTANT -> https://practice.geeksforgeeks.org/problems/ugly-numbers/0 (done)
+
+
+
+// EXTREMELY IMPORTANT -> https://www.geeksforgeeks.org/box-stacking-problem-dp-22/ (DO ASAP) 
+
+
+
+// EXTREMELY IMPORTANT -> https://practice.geeksforgeeks.org/problems/maximum-sum-bitonic-subsequence/0 (do asap)
+
+
+
+// FAADHU RECURSION -> https://practice.geeksforgeeks.org/problems/friends-pairing-problem/0 (DEKH LIYO ISE ZAROOR)
+
+
+
+// EXTREMELY IMPORTANT -> https://practice.geeksforgeeks.org/problems/interleaved-strings/1 (do asap)
+
+
+
+// EXTREMELY IMPORTANT -> https://practice.geeksforgeeks.org/problems/wildcard-pattern-matching/1 (do asap)
+
+
+
+// EXTREMELY IMPORTANT -> https://practice.geeksforgeeks.org/problems/two-water-jug-problem/0  (do asap)
+
+
+
+// EXTREMELY IMPORTANT -> https://practice.geeksforgeeks.org/problems/champagne-overflow/0 (do asap)
+
+
+
+// EXTREMELY IMPORTANT -> https://practice.geeksforgeeks.org/problems/remove-minimum-elements/0 (partially done)
+
+
+
+// EXTREMELY IMPORTANT -> https://practice.geeksforgeeks.org/editorial.php?pid=1750 
+
+
+
+// EXTREMELY IMPORTANT -> https://practice.geeksforgeeks.org/problems/valid-substring/0 (do asap)
+
+
+
+// EXTREMELY IMPORTANT -> https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps/0 (DO ASAP)
+
+
+
+// EXTREMELY IMPORTANT Count of n digit numbers whose sum of digits equals to given sum (DO ASAP)
+
+
+
+// EXTREMELY IMPORTANT -> https://practice.geeksforgeeks.org/problems/longest-common-increasing-subsequence/0 (do asap)
+
+
+
+// GOOD TRICK -> https://practice.geeksforgeeks.org/problems/find-if-string-is-k-palindrome-or-not/0 
+
+
+
+// GOOD QUESTION -> https://practice.geeksforgeeks.org/problems/temple-offerings/0 (do asap)
+
+
+
+// VERY IMPORTANT https://practice.geeksforgeeks.org/problems/total-decoding-messages/0 

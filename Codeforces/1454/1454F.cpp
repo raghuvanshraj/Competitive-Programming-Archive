@@ -1,0 +1,201 @@
+/**
+ *    author:	vulkan
+ *    created:	09.12.2020 11:36:32 AM
+**/
+#include <bits/stdc++.h>
+#include <ext/pb_ds/assoc_container.hpp>
+
+#define MOD 1000000007
+#define INF 1000000000
+
+#define SET_ARR(arr,n,val) for (int i = 0; i < n; ++i) arr[i] = val
+#define SET_ARR2D(arr,n,m,val) for (int i = 0; i < n; ++i) for (int j = 0; j < m; ++j) arr[i][j] = val
+#define INPUT_ARR(arr,n) for (int i = 0; i < n; ++i) cin >> arr[i];
+#define INPUT_ARR2D(arr,n,m) for (int i = 0; i < n; ++i) for (int j = 0; j < m; ++j) cin >> arr[i][j];
+#define PRINT_ARR(arr) for (auto x : arr) cout << x << ' '; cout << endl
+#define PRINT_ARR2D(arr) for (auto x : arr) { for (auto y : x) cout << y << ' '; cout << endl; }
+
+#define ALL(v) v.begin(), v.end()
+#define RALL(v) v.rbegin(), v.rend()
+
+using namespace std;
+using namespace __gnu_pbds;
+
+typedef long long LL;
+typedef unsigned long long ULL;
+typedef long double LD;
+
+template <typename X, typename T>
+auto vectors(X x, T a) {
+	return vector<T>(x, a);
+}
+
+template <typename X, typename Y, typename Z, typename... Zs>
+auto vectors(X x, Y y, Z z, Zs... zs) {
+	auto cont = vectors(y, z, zs...);
+	return vector<decltype(cont)>(x, cont);
+}
+
+template <typename T>
+using indexed_set = tree<T, null_type, less<T>, rb_tree_tag, tree_order_statistics_node_update>;
+
+template <typename T>
+using max_heap = priority_queue<T>;
+
+template <typename T>
+using min_heap = priority_queue<T, vector<T>, greater<T>>;
+
+template <
+    typename T,
+    typename = typename enable_if<is_arithmetic<T>::value, T>::type,
+    typename U,
+    typename = typename enable_if<is_arithmetic<U>::value, U>::type
+    >
+pair<T, U> operator+(const pair<T, U> &a, const pair<T, U> &b) {
+	return {a.first + b.first, a.second + b.second};
+}
+
+template <
+    typename T,
+    typename = typename enable_if<is_arithmetic<T>::value, T>::type,
+    typename U,
+    typename = typename enable_if<is_arithmetic<U>::value, U>::type
+    >
+pair<T, U> operator-(const pair<T, U> &a, const pair<T, U> &b) {
+	return {a.first - b.first, a.second - b.second};
+}
+
+template <
+    typename T,
+    typename = typename enable_if<is_arithmetic<T>::value, T>::type,
+    typename U,
+    typename = typename enable_if<is_arithmetic<U>::value, U>::type,
+    typename V,
+    typename = typename enable_if<is_arithmetic<V>::value, V>::type
+    >
+pair<T, U> operator*(const V &a, const pair<T, U> &b) {
+	return {a * b.first, a * b.second};
+}
+
+template <
+    typename T,
+    typename = typename enable_if<is_arithmetic<T>::value, T>::type,
+    typename U,
+    typename = typename enable_if<is_arithmetic<U>::value, U>::type,
+    typename V,
+    typename = typename enable_if<is_arithmetic<V>::value, V>::type
+    >
+pair<T, U> operator*(const pair<T, U> &b, const V &a) {
+	return {a * b.first, a * b.second};
+}
+
+template <typename T, typename U>
+istream& operator>>(istream &input, pair<T, U> &b) {
+	input >> b.first >> b.second;
+	return input;
+}
+
+template <typename T, typename U>
+ostream& operator<<(ostream &output, pair<T, U> &b) {
+	output << b.first << ' ' << b.second;
+	return output;
+}
+
+int rng_min(map<int, vector<int>> &rmq, int i, int j) {
+	int n = j - i + 1;
+	int sz = 1;
+	while (sz <= n) {
+		sz *= 2;
+	}
+	sz /= 2;
+
+	int x = i;
+	int y = j - sz + 1;
+	return min(rmq[sz][x], rmq[sz][y]);
+}
+
+int binary_search(map<int, vector<int>> &rmq, int i, int s, int e, int x) {
+	while (s <= e) {
+		int mid = (s + e) / 2;
+		int curr = rng_min(rmq, i, mid);
+		if (curr < x) {
+			e = mid - 1;
+		} else if (curr > x) {
+			s = mid + 1;
+		} else {
+			return mid;
+		}
+	}
+
+	return -1;
+}
+
+int main(int argc, char const *argv[]) {
+	ios::sync_with_stdio(false);
+	cin.tie(0);
+
+	int t;
+	cin >> t;
+	while (t--) {
+		int n;
+		cin >> n;
+		vector<int> arr(n);
+		INPUT_ARR(arr, n);
+		vector<int> premax(n), suffmax(n);
+		premax[0] = arr[0];
+		for (int i = 1; i <= n - 1; ++i) {
+			premax[i] = max(premax[i - 1], arr[i]);
+		}
+		suffmax[n - 1] = arr[n - 1];
+		for (int i = n - 2; i >= 0; --i) {
+			suffmax[i] = max(suffmax[i + 1], arr[i]);
+		}
+
+		map<int, vector<int>> rmq;
+		for (int i = 1; i <= n; i *= 2) {
+			rmq[i] = vector<int>(n - i + 1);
+		}
+
+		for (int i = 0; i <= n - 1; ++i) {
+			rmq[1][i] = arr[i];
+		}
+
+		for (int i = 2; i <= n; i *= 2) {
+			int sz = n - i + 1;
+			int prev = i / 2;
+			for (int j = 0; j <= sz - 1; ++j) {
+				rmq[i][j] = min(rmq[prev][j], rmq[prev][j + prev]);
+			}
+		}
+
+		int x = 0, y = 0, z = 0;
+		for (int i = 0; i <= n - 3; ++i) {
+			auto its = lower_bound(suffmax.begin() + i + 2, suffmax.end(), premax[i], greater<int>());
+			auto ite = upper_bound(suffmax.begin() + i + 2, suffmax.end(), premax[i], greater<int>());
+			if (its != suffmax.end()) {
+				int s = its - suffmax.begin();
+				if (suffmax[s] != premax[i]) {
+					continue;
+				}
+				ite--;
+				int e = ite - suffmax.begin();
+				int j = binary_search(rmq, i + 1, s - 1, e - 1, premax[i]);
+				if (j != -1) {
+					x = i + 1;
+					y = j - i;
+					z = n - x - y;
+					break;
+				}
+			}
+		}
+
+		if (x != 0) {
+			cout << "YES" << endl;
+			cout << x  << ' ' << y << ' ' << z << endl;
+		} else {
+			cout << "NO" << endl;
+		}
+	}
+
+	return 0;
+}

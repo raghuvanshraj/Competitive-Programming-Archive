@@ -1,0 +1,209 @@
+COMPETITIVE PROGRAMMING SKILLS TO LEARN
+
+1. THEORY :- 
+ 
+* Main Page - Competitive Programming Algorithms
+
+* Notes on HackerEarth
+
+* Blogs of Codeforces (Please use Google)
+
+* Competitive Programming: From Beginner to Expert    (They explain things in such a friendly manner,I love those guys)
+
+* GeeksforGeeks | A computer science portal for geeks (This guy will save you the most)
+
+
+2. TOPIC WISE : - 
+
+- C++ Tricks by Swift
+
+- C++ STL: map and set by adamant
+
+- C++ STL: Policy based data structures by adamant
+
+- Competitive C++ Manifesto: A Style Guide by Swift
+
+- Catching silly mistakes with GCC by andreyv
+
+
+3. Data Structures :- 
+
+- Algorithm Gym :: Data Structures by DarthPrince
+
+- Everything about Segment Trees by DarthPrince
+
+- Efficient and easy Segtree by Al.Cash
+
+- A simple introduction to "Segment tree beats" by jiry_2
+
+- Sack(DSU on trees) by Arpa
+
+- SQRT Tree by gepardo
+
+- Link-Cut tree by adamant
+
+- Easy implementation of Compressed 2D Binary Indexed Tree for grid of binary numbers by sdnr1
+
+- Introduction to New Data Structure: Wavelet Trees by rachitjain
+
+- [Tutorial] Searching Binary Indexed Tree in O(log(N)) using Binary Lifting by sdnr1
+
+- An alternative sorting order for Mo's algorithm by gepardo
+
+- How can we perform segment queries with Palindromic Tree? by duckladydinh
+
+- Easy and (Semi)Efficient Dynamic Segment Trees (with Policy Hash Tables) by Chilli
+
+- 2D Range Minimum Query in O(1) by fnf47
+
+- Nifty implementation of multi-dimensional Binary Indexed Trees using templates. by mouse_wireless
+
+- Top 10 optimizations 2017- (collectors edition) by bukefala
+
+-DP
+
+- DP on Trees by darkshadows
+
+- SOS DP by usaxena95
+
+- Recurrent Sequences — Application of combinatorics in DP by TooNewbie
+
+- Non-trivial DP tricks & Techniques by zscoder
+
+- Digit DP by flash_7
+
+- Optimized solution for Knapsack problem by sdnr1
+
+- Dp On Trees by JafarIsBack
+
+Math
+
+- Invariants and monovariants by TooNewbie
+
+- Mobius Inversion by Nisiyama_Suzune
+
+- Dirichlet convolution by Nisiyama_Suzune
+
+- Fast convolution for 64-bit integers by quasisphere
+
+- Tutorial for FFT/NTT Part 1 by sidhant
+
+- Tutorial for FFT/NTT Part 2 by sidhant
+
+- On Fast Fourier Transform by adamant
+
+- Extended Eratosthenes Sieve by lucyanna2018
+
+- Burnside Lemma by flash_7
+
+- 2 Special cases of Gaussian by .AJ.
+
+- Number of Solutions to a Linear Algebraic Equation by J-C
+
+- Rolling hash and 8 interesting problems by dmkozyrev
+
+- Avoid overflow in linear diophantine equation by Jakube
+
+- [Tutorial] Chinese Remainder Theorem by Valiors
+
+- Linear Recurrence and Berlekamp-Massey Algorithm by fjzzq2002
+
+- A blog on the Sprague-Grundy Theorem by sirknightingfail
+
+- Schonhage-Strassen (FFT-based integer multiplication) tutorial by sammyMaX
+
+- [Tutorial] Inclusion-Exclusion Principle, Part 1. by Roundgod
+
+- Number Theory in Competitive Programming [Tutorial] by rkm0959
+
+- On burnside (again) by sorry_marymarine
+
+- A Bitwise Convolution Tutorial by Anai
+
+- The Fear of Gaussian Elimination by godmar
+
+String Processing
+
+- Z algorithm by paladin8
+
+- Suffix Automata by quasisphere
+
+- Transition between Z- and prefix functions by adamant
+
+- Manacher's algorithm and code readability by adamant
+
+Geometry
+
+- Quaternion algebra and geometry by adamant
+
+- Slope Trick by zscoder
+
+- Nearest Neighbor Search by P_Nyagolov
+
+- Convex Hull trick and Li chao tree by adamant
+
+- Geometry: 2D points and lines by Al.Cash
+
+- Geometry: Polygon algorithms by Al.Cash
+
+- [Tutorial] Convex Hull Trick — Geometry being useful by meooow
+
+Graphs
+
+- 0-1 BFS by dumbass
+
+- 2-SAT by Swift
+
+- Algorithm Gym :: Graph Algorithms by DarthPrince
+
+- On Euler tour trees by ifsmirnov
+
+- 'Meet in the middle' with shortest path problems of unweighted graph by liv1n9
+
+- Vertex cover and 2-SAT by irkstepanov
+
+- Add edges to a digraph to make it strongly connected by chaotic_iak
+
+Others
+
+- Parallel Binary Search by dumbass
+
+- General ideas and tricks by adamant
+
+- Some Tutorials -- Or attempts at it :P by rajarshi_basu
+
+- Tutorial On Tof (Ternary Search) by Mahdi_Jfri
+
+Some more stuff on Dynamic Programming:-
+
+Dynamic programming:
+
+1. Topcoder Tutorial
+2. Dynamic Programming,from novice to advanced
+3. Learn DP and other tricks
+4. Non-trivial DP tricks
+5. Everything about Dynamic Programming
+6. Digit DP 1
+7. some solutions of digit dp problems
+8. digit Dp for product digits
+9. Digit Dp tutorial bangla
+10. Digit DP hackerrank tutorial
+11. Important problems solutions of Digit DP
+12. DP on trees
+13. DP on trees problem-3
+14. DP on trees
+15. A Tricky DP Problem on Trees
+16. Bitmask DP
+17. SOS Dp
+18. Sum Over Subsets
+19. bitmask dp, buildup sos dp
+20. A little bit of classics: dynamic programming over subsets and paths in graphs
+21. Coin Problems
+22. nice DP problem Editorial
+23. Subsequence related Problem solution
+24. Smallest Word problem
+(My tip for Dynamic Programming : -INVENT YOUR OWN PROBLEMS AND SOLUTIONS,EXTEND YOUR IMAGINATION)
+
+To be a master of math for competitive programming:-
+
+Solve ProjectEuler+ Questions | Contests
