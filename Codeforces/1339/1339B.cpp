@@ -1,13 +1,12 @@
 /**
  *    author:	vulkan
- *    created:	12.05.2020 08:44:21 PM
+ *    created:	08.11.2020 02:28:04 AM
 **/
 #include <bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
 
 #define MOD 1000000007
-#define MAX 1000000000
-#define MIN -1000000000
+#define INF 1000000000
 
 #define SET_ARR(arr,n,val) for (int i = 0; i < n; ++i) arr[i] = val
 #define SET_ARR2D(arr,n,m,val) for (int i = 0; i < n; ++i) for (int j = 0; j < m; ++j) arr[i][j] = val
@@ -115,22 +114,19 @@ int main(int argc, char const *argv[]) {
 		INPUT_ARR(arr, n);
 
 		sort(ALL(arr));
-
+		int i = 0, j = n - 1;
 		vector<int> ans(n);
-		ans[n - 1] = arr[0];
-		ans[n - 2] = arr[n - 1];
-		int idx = n - 3;
-		int i = 1, j = n - 2;
-		while (idx >= 0) {
-			ans[idx--] = arr[i];
-			if (idx >= 0) {
-				ans[idx--] = arr[j];
+		int k = 0;
+		while (k < n) {
+			if (k < n) {
+				ans[k++] = arr[i++];
 			}
-
-			i++;
-			j--;
+			if (k < n) {
+				ans[k++] = arr[j--];
+			}
 		}
 
+		reverse(ALL(ans));
 		PRINT_ARR(ans);
 	}
 

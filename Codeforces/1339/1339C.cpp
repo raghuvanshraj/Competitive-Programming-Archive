@@ -1,13 +1,12 @@
 /**
  *    author:	vulkan
- *    created:	12.05.2020 09:47:19 PM
+ *    created:	08.11.2020 02:59:13 AM
 **/
 #include <bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
 
 #define MOD 1000000007
-#define MAX 1000000000
-#define MIN -1000000000
+#define INF 1000000000
 
 #define SET_ARR(arr,n,val) for (int i = 0; i < n; ++i) arr[i] = val
 #define SET_ARR2D(arr,n,m,val) for (int i = 0; i < n; ++i) for (int j = 0; j < m; ++j) arr[i][j] = val
@@ -102,24 +101,14 @@ ostream& operator<<(ostream &output, pair<T, U> &b) {
 	return output;
 }
 
-int log(int x, int b, bool ret_ceil = false) {
-	int res = 0;
-	int curr = x;
-	while (curr) {
-		curr /= b;
-		res++;
-	}
-	res--;
-
-	if ((1 << res) == x) {
-		return res;
+int msb(int x) {
+	int cnt = 0;
+	while (x) {
+		x /= 2;
+		cnt++;
 	}
 
-	if (ret_ceil) {
-		res++;
-	}
-
-	return res;
+	return cnt;
 }
 
 int main(int argc, char const *argv[]) {
@@ -134,15 +123,14 @@ int main(int argc, char const *argv[]) {
 		vector<int> arr(n);
 		INPUT_ARR(arr, n);
 
+		int curr_max = arr[0];
 		int ans = 0;
-		int max_elt = arr[0];
 		for (int i = 1; i <= n - 1; ++i) {
-			if (arr[i] < max_elt) {
-				int x = log(max_elt - arr[i], 2);
-				ans = max(ans, x + 1);
-			} else {
-				max_elt = arr[i];
+			if (arr[i] < curr_max) {
+				ans = max(ans, msb(curr_max - arr[i]));
 			}
+
+			curr_max = max(curr_max, arr[i]);
 		}
 
 		cout << ans << endl;
