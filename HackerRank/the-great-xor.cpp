@@ -1,6 +1,6 @@
 /**
- *    author:	vulkan
- *    created:	26.03.2020 12:31:16 PM
+ *    author:    vulkan
+ *    created:   26.03.2020 12:31:16 PM
 **/
 #include <bits/stdc++.h>
 
@@ -39,7 +39,7 @@ template <
     typename = typename enable_if<is_arithmetic<U>::value, U>::type
     >
 pair<T, U> operator+(const pair<T, U> &a, const pair<T, U> &b) {
-	return {a.first + b.first, a.second + b.second};
+    return {a.first + b.first, a.second + b.second};
 }
 
 template <
@@ -49,7 +49,7 @@ template <
     typename = typename enable_if<is_arithmetic<U>::value, U>::type
     >
 pair<T, U> operator-(const pair<T, U> &a, const pair<T, U> &b) {
-	return {a.first - b.first, a.second - b.second};
+    return {a.first - b.first, a.second - b.second};
 }
 
 template <
@@ -61,31 +61,31 @@ template <
     typename = typename enable_if<is_arithmetic<V>::value, V>::type
     >
 pair<T, U> operator*(const V &a, const pair<T, U> &b) {
-	return {a * b.first, a * b.second};
+    return {a * b.first, a * b.second};
 }
 
 int main(int argc, char const *argv[]) {
-	ios::sync_with_stdio(false);
-	cin.tie(0);
+    ios::sync_with_stdio(false);
+    cin.tie(0);
 
-	int q;
-	cin >> q;
-	while (q--) {
-		long x;
-		cin >> x;
-		long count = 0L;
-		long curr = 1L;
-		while (x) {
-			if ((x & 1) == 0) {
-				count += curr;
-			}
+    int q;
+    cin >> q;
+    while (q--) {
+        long x;
+        cin >> x;
+        long count = 0L;
+        long curr = 1L;
+        while (x) {
+            if ((x & 1) == 0) {
+                count += curr;
+            }
 
-			curr *= 2L;
-			x >>= 1;
-		}
+            curr *= 2L;
+            x >>= 1;
+        }
 
-		cout << count << endl;
-	}
+        cout << count << endl;
+    }
 
-	return 0;
+    return 0;
 }

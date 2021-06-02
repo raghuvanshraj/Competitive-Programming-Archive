@@ -1,0 +1,1637 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"inc",
+				"increasing"
+			],
+			[
+				"dvi",
+				"dividend"
+			],
+			[
+				"divi",
+				"divisor"
+			],
+			[
+				"ios",
+				"iostream\tstandard header"
+			],
+			[
+				"hel",
+				"hello_world"
+			],
+			[
+				"PRINT",
+				"PRINT_ARR2D"
+			],
+			[
+				"ma",
+				"matrix"
+			],
+			[
+				"last",
+				"last_s0"
+			],
+			[
+				"las",
+				"last_s0"
+			],
+			[
+				"end",
+				"endl"
+			],
+			[
+				"mid",
+				"mid_right_diff"
+			],
+			[
+				"print",
+				"print_ans"
+			],
+			[
+				"bea",
+				"break"
+			],
+			[
+				"mo",
+				"monster_t"
+			],
+			[
+				"get",
+				"get_smallest"
+			],
+			[
+				"do",
+				"do_swap"
+			],
+			[
+				"comp",
+				"comp_h"
+			],
+			[
+				"interv",
+				"interval_t"
+			],
+			[
+				"inter",
+				"intervals"
+			],
+			[
+				"in",
+				"intervals"
+			],
+			[
+				"int",
+				"intvls"
+			],
+			[
+				"pow",
+				"pow_mod"
+			],
+			[
+				"nc",
+				"nCr"
+			],
+			[
+				"prime",
+				"prime-factor-root\tPrime Factorization in √n"
+			],
+			[
+				"IN",
+				"INPUT_ARR"
+			],
+			[
+				"bin",
+				"binary_search"
+			],
+			[
+				"ask",
+				"ask_and"
+			],
+			[
+				"min",
+				"minimumJumps"
+			],
+			[
+				"for",
+				"forbidden"
+			],
+			[
+				"beg",
+				"begin"
+			],
+			[
+				"cnt",
+				"cnta"
+			],
+			[
+				"pint",
+				"PRINT_ARR"
+			],
+			[
+				"is",
+				"is_prime"
+			],
+			[
+				"mov",
+				"move_right"
+			],
+			[
+				"curr",
+				"curr_min"
+			],
+			[
+				"max",
+				"max_idx"
+			],
+			[
+				"found",
+				"found_y"
+			],
+			[
+				"to",
+				"total_diff"
+			],
+			[
+				"seg",
+				"seg-pt-rng\tseg-pt-rng"
+			],
+			[
+				"arr",
+				"arr_unlock"
+			],
+			[
+				"fib",
+				"fibonacci"
+			],
+			[
+				"sign",
+				"sign_a"
+			],
+			[
+				"ex",
+				"extended-euclid\tax+by=g in log(max(a,b))"
+			],
+			[
+				"exten",
+				"extended_euclid"
+			],
+			[
+				"find",
+				"find_all_solutions"
+			],
+			[
+				"pw",
+				"pow-mod\t(a^b)%c in log(b)"
+			],
+			[
+				"ext",
+				"extended-euclid\tax+by=g in log(max(a,b))"
+			],
+			[
+				"mod",
+				"MOD"
+			],
+			[
+				"dec",
+				"dec_seg"
+			],
+			[
+				"i",
+				"istream"
+			],
+			[
+				"type",
+				"typename"
+			],
+			[
+				"ans",
+				"ans1"
+			],
+			[
+				"unk",
+				"unk_btks"
+			],
+			[
+				"zer",
+				"zero_btks"
+			],
+			[
+				"one",
+				"one_bkts"
+			],
+			[
+				"tee",
+				"tree"
+			],
+			[
+				"vector",
+				"vectors"
+			],
+			[
+				"op",
+				"opt3"
+			],
+			[
+				"fac",
+				"factorize"
+			],
+			[
+				"se",
+				"seg_tree"
+			],
+			[
+				"ct",
+				"cnts"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"right",
+				"right"
+			],
+			[
+				"left",
+				"left"
+			],
+			[
+				"build",
+				"build_suffix"
+			],
+			[
+				"sub",
+				"sub_idx"
+			],
+			[
+				"bui",
+				"build_lcp"
+			],
+			[
+				"buil",
+				"build_suffix"
+			],
+			[
+				"dsu",
+				"dsu_t"
+			],
+			[
+				"ds",
+				"dsu_t"
+			],
+			[
+				"eq",
+				"equations"
+			],
+			[
+				"pro",
+				"probs"
+			],
+			[
+				"f",
+				"floyd_warshall"
+			],
+			[
+				"P",
+				"PRINT_ARR"
+			],
+			[
+				"push",
+				"push_back"
+			],
+			[
+				"nums",
+				"nums_set"
+			],
+			[
+				"flo",
+				"floyd_warshall"
+			],
+			[
+				"adj",
+				"adj_mat"
+			],
+			[
+				"be",
+				"bellman_ford"
+			],
+			[
+				"di",
+				"distance"
+			],
+			[
+				"inf",
+				"INF"
+			],
+			[
+				"edge",
+				"edges"
+			],
+			[
+				"edg",
+				"edges"
+			],
+			[
+				"ed",
+				"edges"
+			],
+			[
+				"pr",
+				"processed"
+			],
+			[
+				"is_",
+				"is_possible"
+			],
+			[
+				"pre",
+				"prev_cnt"
+			],
+			[
+				"vecto",
+				"vectors"
+			],
+			[
+				"fact",
+				"fact_t"
+			],
+			[
+				"t",
+				"t_primes"
+			],
+			[
+				"cret",
+				"create_set"
+			],
+			[
+				"n",
+				"n"
+			],
+			[
+				"pos",
+				"pos_x"
+			],
+			[
+				"neg",
+				"neg_y"
+			],
+			[
+				"out",
+				"out_pos"
+			],
+			[
+				"gra",
+				"graph-und-list\tgraph-und-list"
+			],
+			[
+				"c",
+				"c"
+			],
+			[
+				"b_",
+				"b_rem"
+			],
+			[
+				"sz",
+				"sz2"
+			],
+			[
+				"book",
+				"book_t"
+			],
+			[
+				"MAX",
+				"MAX_N"
+			],
+			[
+				"min_",
+				"min_prime"
+			],
+			[
+				"prim",
+				"prime_factors"
+			],
+			[
+				"primt",
+				"prime-factor-root\tPrime Factorization in √n"
+			],
+			[
+				"mi",
+				"mid1"
+			],
+			[
+				"m",
+				"MAX"
+			],
+			[
+				"opt",
+				"opt1"
+			],
+			[
+				"vec",
+				"vectors"
+			],
+			[
+				"INT",
+				"INPUT_ARR2D"
+			],
+			[
+				"_",
+				"_minNumberOfSemesters"
+			],
+			[
+				"dep",
+				"dependencies"
+			],
+			[
+				"can",
+				"candidates"
+			],
+			[
+				"idx",
+				"idx2"
+			],
+			[
+				"s",
+				"s_idx"
+			],
+			[
+				"PRIN",
+				"PRINT_ARR"
+			],
+			[
+				"fi",
+				"first_pos"
+			],
+			[
+				"un",
+				"unique_cnt"
+			],
+			[
+				"dp",
+				"dp_t"
+			],
+			[
+				"s_",
+				"s_minus"
+			],
+			[
+				"prev",
+				"prev_ch"
+			],
+			[
+				"MIN",
+				"min_heap"
+			],
+			[
+				"stati",
+				"stations"
+			],
+			[
+				"en",
+				"endl"
+			],
+			[
+				"tagr",
+				"target-i"
+			],
+			[
+				"stat",
+				"station"
+			],
+			[
+				"split",
+				"split-string\tSplit a String"
+			],
+			[
+				"cou",
+				"countTriplets"
+			],
+			[
+				"grd",
+				"grid"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "HackerRank/the-great-xor.cpp",
+			"settings":
+			{
+				"buffer_size": 2798,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					2,
+					1,
+					"paste",
+					null,
+					"AQAAAAAAAAAAAAAA6AoAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					6,
+					1,
+					"insert",
+					{
+						"characters": "vulkan"
+					},
+					"BwAAABUAAAAAAAAAFgAAAAAAAAAAAAAAFgAAAAAAAAAWAAAAAAAAAA0AAAByYWdodXZhbnNocmFqFgAAAAAAAAAXAAAAAAAAAAAAAAAXAAAAAAAAABgAAAAAAAAAAAAAABgAAAAAAAAAGQAAAAAAAAAAAAAAGQAAAAAAAAAaAAAAAAAAAAAAAAAaAAAAAAAAABsAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAFQAAAAAAAAAiAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					9,
+					1,
+					"left_delete",
+					null,
+					"AQAAAC0AAAAAAAAALQAAAAAAAAABAAAAIA",
+					"AQAAAAAAAAABAAAALgAAAAAAAAAuAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					10,
+					1,
+					"astyleformat",
+					null,
+					"EAAAACEGAAAAAAAAJQYAAAAAAAAAAAAALgYAAAAAAAAvBgAAAAAAAAAAAABJBgAAAAAAAEoGAAAAAAAAAAAAAF4GAAAAAAAAXwYAAAAAAAAAAAAAVAcAAAAAAABYBwAAAAAAAAAAAABhBwAAAAAAAGIHAAAAAAAAAAAAAHwHAAAAAAAAfQcAAAAAAAAAAAAAkQcAAAAAAACSBwAAAAAAAAAAAADcCAAAAAAAAOAIAAAAAAAAAAAAAOkIAAAAAAAA6ggAAAAAAAAAAAAAEAkAAAAAAAARCQAAAAAAAAAAAACfCQAAAAAAAJ8JAAAAAAAABAAAACAgICCgCQAAAAAAAKAJAAAAAAAAAAAAAEQKAAAAAAAARQoAAAAAAAAAAAAARgoAAAAAAABHCgAAAAAAAAAAAADdCgAAAAAAAN0KAAAAAAAABAAAACAgICA",
+					"AQAAAAAAAAABAAAALQAAAAAAAAAtAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "HackerRank/xor-se.cpp",
+			"settings":
+			{
+				"buffer_size": 2833,
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python 2.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python 2.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python 2.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/C++ Terminal.sublime-build",
+					""
+				],
+				[
+					"Packages/User/C++ Terminal.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/C++ Terminal.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/C++.sublime-build",
+					""
+				],
+				[
+					"Packages/User/C++.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/C++.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"prv",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"term",
+				"Terminus: Open Default Shell in Panel"
+			],
+			[
+				"renam",
+				"Rename File"
+			],
+			[
+				"panel",
+				"Terminus: Open Default Shell in Panel"
+			],
+			[
+				"termi",
+				"Terminus: Open Default Shell in Panel"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"termin",
+				"Terminus: Open Default Shell in Panel"
+			],
+			[
+				"terminus",
+				"Terminus: Open Default Shell in Panel"
+			],
+			[
+				"tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"prb",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pr",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"PRV",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"ren",
+				"Rename File"
+			],
+			[
+				"pack",
+				"Install Package Control"
+			],
+			[
+				"del",
+				"File: Delete"
+			],
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"move",
+				"File: Move"
+			],
+			[
+				"delete",
+				"File: Delete"
+			],
+			[
+				"temr",
+				"Terminal: Open"
+			],
+			[
+				"open",
+				"Terminal: Open"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"tbas",
+				"View: Toggle Tabs"
+			],
+			[
+				"rena",
+				"Rename File"
+			],
+			[
+				"re",
+				"Rename File"
+			],
+			[
+				" rename",
+				"Rename File"
+			],
+			[
+				"instal",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 195.0,
+		"history":
+		[
+			"clear"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/raghu/Competitive-Programming-Archive",
+		"/C/Users/raghu/Competitive-Programming-Archive/HackerRank"
+	],
+	"file_history":
+	[
+		"/C/Users/raghu/Competitive-Programming-Archive/HackerRank/sherlock-and-cost.cpp",
+		"/C/Users/raghu/Competitive-Programming-Archive/HackerRank/dynamic-programming-classics-the-longest-common-subsequence.cpp",
+		"/C/Users/raghu/Competitive-Programming-Archive/SPOJ/INVCNT.cpp",
+		"/C/Users/raghu/Competitive-Programming-Archive/Codeforces/253B.cpp",
+		"/C/Users/raghu/Competitive-Programming-Archive/Codeforces/816B.cpp",
+		"/C/Users/raghu/Competitive-Programming/HackerRank/ctci-bubble-sort.cpp",
+		"/C/Users/raghu/Competitive-Programming/scratch.txt",
+		"/C/Users/raghu/Competitive-Programming/AccioJobs/assignments/R.cpp",
+		"/C/Users/raghu/Competitive-Programming/AccioJobs/assignments/O.cpp",
+		"/C/Users/raghu/Competitive-Programming/AccioJobs/complexity.cpp",
+		"/C/Users/raghu/Competitive-Programming/AccioJobs/R.cpp",
+		"/C/Users/raghu/Competitive-Programming/AccioJobs/arrays.cpp",
+		"/C/Users/raghu/AppData/Roaming/Sublime Text 3/Packages/User/C++.sublime-build",
+		"/C/Users/raghu/Competitive-Programming/test.cpp",
+		"/C/Users/raghu/Competitive-Programming/AccioJobs/J.cpp",
+		"/C/Users/raghu/Competitive-Programming/AccioJobs/loops.cpp",
+		"/C/Users/raghu/Competitive-Programming/AccioJobs/conditonals.cpp",
+		"/C/Users/raghu/Competitive-Programming/AccioJobs/datatypes.cpp",
+		"/C/Users/raghu/Competitive-Programming/AccioJobs/hello_world.cpp",
+		"/C/Users/raghu/Competitive-Programming/AccioJobs/sum.cpp",
+		"/C/Users/raghu/Competitive-Programming/AccioJobs/hello_world.txt",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1512/1512B.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1512/1512A.cpp",
+		"/C/Users/raghu/AppData/Roaming/Sublime Text 3/Packages/User/SublimeAStyleFormatter.sublime-settings",
+		"/C/Users/raghu/AppData/Roaming/Sublime Text 3/Packages/SublimeAStyleFormatter/SublimeAStyleFormatter.sublime-settings",
+		"/C/Users/raghu/AppData/Roaming/Sublime Text 3/Packages/C++/Snippets/struct.sublime-snippet",
+		"/C/Users/raghu/AppData/Roaming/Sublime Text 3/Packages/C++/Snippets/do...while-loop-(do).sublime-snippet",
+		"/C/Users/raghu/AppData/Roaming/Sublime Text 3/Packages/C++/Snippets/class-..-(class).sublime-snippet",
+		"/C/Users/raghu/AppData/Roaming/Sublime Text 3/Packages/C++/Snippets/main()-(int main).sublime-snippet",
+		"/C/Users/raghu/AppData/Roaming/Sublime Text 3/Packages/C++/Snippets/if-..-(if).sublime-snippet",
+		"/C/Users/raghu/AppData/Roaming/Sublime Text 3/Packages/C++/Snippets/030-for-int-loop-(fori).sublime-snippet",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1420/1420A.cpp",
+		"/C/Users/raghu/AppData/Roaming/Sublime Text 3/Packages/User/cp.sublime-snippet",
+		"/C/Users/raghu/Downloads/Sublime Configuration-20210428T043045Z-001/Sublime Configuration/Default (Linux).sublime-keymap",
+		"/C/Users/raghu/Downloads/Sublime Configuration-20210428T043045Z-001/Sublime Configuration/bash.sublime-build",
+		"/C/Users/raghu/Downloads/Sublime Configuration-20210428T043045Z-001/Sublime Configuration/bfs.sublime-snippet",
+		"/C/Users/raghu/Downloads/Sublime Configuration-20210428T043045Z-001/Sublime Configuration/C++.sublime-build",
+		"/C/Users/raghu/Downloads/Sublime Configuration-20210428T043045Z-001/Sublime Configuration/C++.sublime-settings",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1494/1494A.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1494/1494B.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1494/1494C.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1480/1480D2.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1480/1480D1.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1480/1480C.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1480/1480B.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1480/1480A.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1472/1472E.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1472/1472D.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1472/1472C.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1472/1472B.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1472/1472A.cpp",
+		"/C/Users/raghu/OneDrive/Desktop/text.txt",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1462/1462F.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1462/1462E2.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1462/1462E1.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1462/1462D.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1462/1462C.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1462/1462B.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1462/1462A.cpp",
+		"/C/Users/raghu/Competitive-Programming/LeetCode/395.cpp",
+		"/C/Users/raghu/Competitive-Programming/LeetCode/239.cpp",
+		"/C/Users/raghu/Competitive-Programming/LeetCode/3.cpp",
+		"/C/Users/raghu/Competitive-Programming/LeetCode/76.cpp",
+		"/C/Users/raghu/AppData/Local/Temp/Rar$DIa4776.9209/4.rnn.text.generation.ipynb",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1459/1459C.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1459/1459B.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1459/1459A.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1451/1451F.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1454/1454F.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1454/1454E.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1454/1454D.cpp",
+		"/C/Users/raghu/AppData/Roaming/Sublime Text 3/Packages/User/prime-factor-log.sublime-snippet",
+		"/C/Users/raghu/AppData/Roaming/Sublime Text 3/Packages/User/prime-factor-root.sublime-snippet",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1454/1454C.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1454/1454B.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1454/1454A.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1451/1451E2.cpp",
+		"/C/Users/raghu/.matplotlib/matplotlibrc",
+		"/C/Users/raghu/anaconda3/Lib/site-packages/matplotlib/mpl-data/matplotlibrc",
+		"/C/Users/raghu/.config/matplotlib/matplotlibrc",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1451/1451E1.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1451/1451D.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1451/1451C.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1451/1451B.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1451/1451A.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1452/1452A.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1452/1452B.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1452/1452C.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1433/1433F.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1433/1433E.cpp",
+		"/C/Users/raghu/Competitive-Programming/LeetCode/1654.cpp",
+		"/C/Users/raghu/Competitive-Programming/cp_bin.exe",
+		"/C/Users/raghu/Competitive-Programming/LeetCode/1657.cpp",
+		"/C/Users/raghu/Competitive-Programming/LeetCode/1658.cpp",
+		"/C/Users/raghu/Competitive-Programming/LeetCode/11.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1447/1447B.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1447/1447A.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1433/1433D.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1433/1433C.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1433/1433B.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1433/1433A.cpp",
+		"/C/Users/raghu/AppData/Roaming/Sublime Text 3/Packages/User/npr.sublime-snippet",
+		"/C/Users/raghu/AppData/Roaming/Sublime Text 3/Packages/User/ncr.sublime-snippet",
+		"/C/Users/raghu/Competitive-Programming/LeetCode/1000.cpp",
+		"/C/Users/raghu/AppData/Roaming/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
+		"/C/Users/raghu/AppData/Roaming/Sublime Text 3/Packages/User/Terminal (Windows).sublime-settings",
+		"/C/Users/raghu/AppData/Roaming/Sublime Text 3/Packages/User/Terminal.sublime-settings",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1339/1339B.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1339/1339C.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1339/1339A.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1436/1436D.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1436/1436C.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1436/a.out",
+		"/C/Users/raghu/AppData/Roaming/Sublime Text 3/Packages/User/nck.sublime-snippet",
+		"/C/Users/raghu/AppData/Roaming/Sublime Text 3/Packages/User/fact.sublime-snippet",
+		"/C/Users/raghu/AppData/Roaming/Sublime Text 3/Packages/User/npk.sublime-snippet",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1436/1436B.cpp",
+		"/C/Users/raghu/AppData/Roaming/Sublime Text 3/Packages/User/is-prime.sublime-snippet",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1436/1436A.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1422/1422A.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1422/1422B.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1422/1422C.cpp",
+		"/C/Users/raghu/Competitive-Programming/LeetCode/39.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1417/1417C.cpp",
+		"/C/Users/raghu/Competitive-Programming/LeetCode/154.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1395/1395D.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1395/1395C.cpp",
+		"/C/Users/raghu/Competitive-Programming/Codeforces/1395/1395B.cpp"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 123.2,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"11.04.2020 06:19:09 PM",
+			"freopen"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "HackerRank/the-great-xor.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2798,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1015,
+								1015
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "HackerRank/xor-se.cpp",
+					"selected": true,
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2833,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								526,
+								526
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 50.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				2
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.753740648379,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.5,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.Terminus":
+	{
+		"height": 387.0
+	},
+	"output.Terminus 10":
+	{
+		"height": 115.0
+	},
+	"output.Terminus 11":
+	{
+		"height": 180.0
+	},
+	"output.Terminus 12":
+	{
+		"height": 139.0
+	},
+	"output.Terminus 2":
+	{
+		"height": 187.0
+	},
+	"output.Terminus 3":
+	{
+		"height": 139.0
+	},
+	"output.Terminus 4":
+	{
+		"height": 171.0
+	},
+	"output.Terminus 5":
+	{
+		"height": 139.0
+	},
+	"output.Terminus 6":
+	{
+		"height": 139.0
+	},
+	"output.Terminus 7":
+	{
+		"height": 206.0
+	},
+	"output.Terminus 8":
+	{
+		"height": 197.0
+	},
+	"output.Terminus 9":
+	{
+		"height": 109.0
+	},
+	"output.astyle_error_message":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 43.2
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/C++.sublime-build",
+	"project": "Competitive-Programming-Archive.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"816B",
+				"Codeforces\\816B.cpp"
+			],
+			[
+				"inv",
+				"SPOJ\\INVCNT.cpp"
+			],
+			[
+				"395",
+				"LeetCode\\395.cpp"
+			],
+			[
+				"239",
+				"LeetCode\\239.cpp"
+			],
+			[
+				"3",
+				"LeetCode\\3.cpp"
+			],
+			[
+				"76",
+				"LeetCode\\76.cpp"
+			],
+			[
+				"1433F",
+				"Codeforces\\1433\\1433F.cpp"
+			],
+			[
+				"1433E",
+				"Codeforces\\1433\\1433E.cpp"
+			],
+			[
+				"sachin",
+				"Coding Ninjas\\sachin_varun.cpp"
+			],
+			[
+				"45",
+				"LeetCode\\45.cpp"
+			],
+			[
+				"765",
+				"LeetCode\\765.cpp"
+			],
+			[
+				"839",
+				"LeetCode\\839.cpp"
+			],
+			[
+				"854",
+				"LeetCode\\854.cpp"
+			],
+			[
+				"reg",
+				"InterviewBit\\regex_match_1.cpp"
+			],
+			[
+				"279",
+				"LeetCode\\279.cpp"
+			],
+			[
+				"928",
+				"LeetCode\\928.cpp"
+			],
+			[
+				"369",
+				"Codeforces\\369C.cpp"
+			],
+			[
+				"446A",
+				"Codeforces\\446A.cpp"
+			],
+			[
+				"75",
+				"Codeforces\\75C.cpp"
+			],
+			[
+				"348",
+				"Codeforces\\348A.cpp"
+			],
+			[
+				"486C",
+				"Codeforces\\486C.cpp"
+			],
+			[
+				"493",
+				"Codeforces\\493D.cpp"
+			],
+			[
+				"285C",
+				"Codeforces\\285C.cpp"
+			],
+			[
+				"230B",
+				"Codeforces\\230B.cpp"
+			],
+			[
+				"122A",
+				"Codeforces/122A.cpp"
+			],
+			[
+				"339",
+				"Codeforces/339B.cpp"
+			],
+			[
+				"12",
+				"Codeforces/1295D.cpp"
+			],
+			[
+				"263",
+				"Codeforces/263A.cpp"
+			],
+			[
+				"1372",
+				"Codeforces/1372D.cpp"
+			],
+			[
+				"prime_digit",
+				"Hackerrank/prime_digit_sums.cpp"
+			],
+			[
+				"elis",
+				"SPOJ/ELIS.cpp"
+			],
+			[
+				"1353D.",
+				"Codeforces/1353/1353D.cpp"
+			],
+			[
+				"23.cpp",
+				"LeetCode/23.cpp"
+			],
+			[
+				"23",
+				"LeetCode/238.cpp"
+			],
+			[
+				"prime",
+				"Hackerrank/prime_xor.cpp"
+			],
+			[
+				"kingdom_di",
+				"Hackerrank/kingdom_division.cpp"
+			],
+			[
+				"substring",
+				"Hackerrank/substring_diff.cpp"
+			],
+			[
+				"prime_dig",
+				"Hackerrank/prime_digit_sums.cpp"
+			],
+			[
+				"king",
+				"Hackerrank/kingdom_division.cpp"
+			],
+			[
+				"1353",
+				"Codeforces/1353/1353E.cpp"
+			],
+			[
+				"871",
+				"LeetCode/871.cpp"
+			],
+			[
+				"1360H",
+				"Codeforces/1360/1360H.cpp"
+			],
+			[
+				"1494",
+				"LeetCode/1494.cpp"
+			],
+			[
+				"1360F",
+				"Codeforces/1360/1360F.cpp"
+			],
+			[
+				"1156",
+				"LeetCode/1156.cpp"
+			],
+			[
+				"1328D",
+				"Codeforces/1328/1328D.cpp"
+			],
+			[
+				"1328",
+				"Codeforces/1328/1328D.cpp"
+			],
+			[
+				"862",
+				"LeetCode/862.cpp"
+			],
+			[
+				"992",
+				"LeetCode/992.cpp"
+			],
+			[
+				"71",
+				"LeetCode/71.cpp"
+			],
+			[
+				"1203D2",
+				"Codeforces/1203/1203D2.cpp"
+			],
+			[
+				"689",
+				"LeetCode/689.cpp"
+			],
+			[
+				"201",
+				"LeetCode/201.cpp"
+			],
+			[
+				"xor",
+				"Hackerrank/xor_seq.cpp"
+			],
+			[
+				"1354",
+				"LeetCode/1354.cpp"
+			],
+			[
+				"lil",
+				"Hackerrank/lilys_homework.cpp"
+			],
+			[
+				"287",
+				"LeetCode/287.cpp"
+			],
+			[
+				"4",
+				"LeetCode/4.cpp"
+			],
+			[
+				"sam",
+				"Hackerrank/sam_substrings.cpp"
+			],
+			[
+				"41",
+				"LeetCode/41.cpp"
+			],
+			[
+				"986",
+				"LeetCode/986.cpp"
+			],
+			[
+				"456",
+				"LeetCode/456.cpp"
+			],
+			[
+				"funn",
+				"Hackerrank/find_the_running_median.cpp"
+			],
+			[
+				"525",
+				"LeetCode/525.cpp"
+			],
+			[
+				"56",
+				"LeetCode/560.cpp"
+			],
+			[
+				"334",
+				"LeetCode/334.cpp"
+			],
+			[
+				"equal",
+				"Hackerrank/equal.cpp"
+			],
+			[
+				"347",
+				"LeetCode/347.cpp"
+			],
+			[
+				"india",
+				"Hackerrank/indian_job.cpp"
+			],
+			[
+				"stock",
+				"Hackerrank/stock_max.cpp"
+			],
+			[
+				"54",
+				"LeetCode/54.cpp"
+			],
+			[
+				"152",
+				"LeetCode/152.cpp"
+			],
+			[
+				"454",
+				"LeetCode/454.cpp"
+			],
+			[
+				"equa",
+				"Hackerrank/equal.cpp"
+			],
+			[
+				"indina",
+				"Hackerrank/indian_job.cpp"
+			],
+			[
+				"918",
+				"LeetCode/918.cpp"
+			],
+			[
+				"stockma",
+				"Hackerrank/stock_max.cpp"
+			],
+			[
+				"713",
+				"LeetCode/713.cpp"
+			],
+			[
+				"fair",
+				"Hackerrank/fair_cut.cpp"
+			],
+			[
+				"238",
+				"LeetCode/238.cpp"
+			],
+			[
+				"lily",
+				"Hackerrank/lilys_homework.cpp"
+			],
+			[
+				"53",
+				"LeetCode/53.cpp"
+			],
+			[
+				"1012",
+				"LeetCode/1012.cpp"
+			],
+			[
+				"149",
+				"LeetCode/149.cpp"
+			],
+			[
+				"85",
+				"LeetCode/85.cpp"
+			],
+			[
+				"221",
+				"LeetCode/221.cpp"
+			],
+			[
+				"49",
+				"LeetCode/49.cpp"
+			],
+			[
+				"1451",
+				"LeetCode/weekly-contest-189/1451.cpp"
+			],
+			[
+				"1342B",
+				"Codeforces/1342/1342B.cpp"
+			],
+			[
+				"1343C",
+				"Codeforces/1343/1343C.cpp"
+			],
+			[
+				"number",
+				"LeetCode/number_of_islands.cpp"
+			],
+			[
+				"466",
+				"Codeforces/466C.cpp"
+			],
+			[
+				"474D",
+				"Codeforces/474D.cpp"
+			],
+			[
+				"1344",
+				"Codeforces/1344A.cpp"
+			],
+			[
+				"1336",
+				"Codeforces/1336B.cpp"
+			],
+			[
+				"1165",
+				"codeforces/1165D.cpp"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 253.0,
+		"last_filter": "bfs",
+		"selected_items":
+		[
+			[
+				"bfs",
+				"BFS"
+			],
+			[
+				"",
+				"BFS"
+			]
+		],
+		"width": 589.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"last_automatic_layout":
+		[
+			[
+				0,
+				0,
+				1,
+				2
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		]
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 253.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}
