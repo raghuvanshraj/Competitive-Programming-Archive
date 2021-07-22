@@ -520,60 +520,309 @@
 	"buffers":
 	[
 		{
-			"file": "HackerRank/the-great-xor.cpp",
+			"file": "LeetCode/287.cpp",
 			"settings":
 			{
-				"buffer_size": 2798,
+				"buffer_size": 505,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "LeetCode/765.cpp",
+			"settings":
+			{
+				"buffer_size": 1061,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "LeetCode/41.cpp",
+			"settings":
+			{
+				"buffer_size": 715,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "LeetCode/689.cpp",
+			"settings":
+			{
+				"buffer_size": 1475,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "LeetCode/456.cpp",
+			"settings":
+			{
+				"buffer_size": 610,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "LeetCode/3.cpp",
+			"settings":
+			{
+				"buffer_size": 686,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "input.txt",
+			"settings":
+			{
+				"buffer_size": 1,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			},
 			"undo_stack":
 			[
 				[
-					2,
+					5,
 					1,
-					"paste",
-					null,
-					"AQAAAAAAAAAAAAAA6AoAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/"
+					"insert",
+					{
+						"characters": "`0"
+					},
+					"AgAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvw"
 				],
 				[
 					6,
 					1,
 					"insert",
 					{
-						"characters": "vulkan"
+						"characters": " "
 					},
-					"BwAAABUAAAAAAAAAFgAAAAAAAAAAAAAAFgAAAAAAAAAWAAAAAAAAAA0AAAByYWdodXZhbnNocmFqFgAAAAAAAAAXAAAAAAAAAAAAAAAXAAAAAAAAABgAAAAAAAAAAAAAABgAAAAAAAAAGQAAAAAAAAAAAAAAGQAAAAAAAAAaAAAAAAAAAAAAAAAaAAAAAAAAABsAAAAAAAAAAAAAAA",
-					"AQAAAAAAAAABAAAAFQAAAAAAAAAiAAAAAAAAAAAAAAAAAPC/"
+					"AQAAAAIAAAAAAAAAAwAAAAAAAAAAAAAA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					7,
+					3,
+					"left_delete",
+					null,
+					"AwAAAAIAAAAAAAAAAgAAAAAAAAABAAAAIAEAAAAAAAAAAQAAAAAAAAABAAAAMAAAAAAAAAAAAAAAAAAAAAABAAAAYA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAMAAAAAAAAAAwAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					8,
+					1,
+					"insert",
+					{
+						"characters": "`10"
+					},
+					"AwAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAMAAAAAAAAAAAAAAA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvw"
 				],
 				[
 					9,
 					1,
-					"left_delete",
-					null,
-					"AQAAAC0AAAAAAAAALQAAAAAAAAABAAAAIA",
-					"AQAAAAAAAAABAAAALgAAAAAAAAAuAAAAAAAAAAAAAAAAAPC/"
+					"insert",
+					{
+						"characters": " 56"
+					},
+					"AwAAAAMAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAFAAAAAAAAAAAAAAAFAAAAAAAAAAYAAAAAAAAAAAAAAA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAMAAAAAAAAAAwAAAAAAAAAAAAAAAADwvw"
 				],
 				[
 					10,
 					1,
-					"astyleformat",
+					"left_delete",
 					null,
-					"EAAAACEGAAAAAAAAJQYAAAAAAAAAAAAALgYAAAAAAAAvBgAAAAAAAAAAAABJBgAAAAAAAEoGAAAAAAAAAAAAAF4GAAAAAAAAXwYAAAAAAAAAAAAAVAcAAAAAAABYBwAAAAAAAAAAAABhBwAAAAAAAGIHAAAAAAAAAAAAAHwHAAAAAAAAfQcAAAAAAAAAAAAAkQcAAAAAAACSBwAAAAAAAAAAAADcCAAAAAAAAOAIAAAAAAAAAAAAAOkIAAAAAAAA6ggAAAAAAAAAAAAAEAkAAAAAAAARCQAAAAAAAAAAAACfCQAAAAAAAJ8JAAAAAAAABAAAACAgICCgCQAAAAAAAKAJAAAAAAAAAAAAAEQKAAAAAAAARQoAAAAAAAAAAAAARgoAAAAAAABHCgAAAAAAAAAAAADdCgAAAAAAAN0KAAAAAAAABAAAACAgICA",
-					"AQAAAAAAAAABAAAALQAAAAAAAAAtAAAAAAAAAAAAAAAAAPC/"
+					"AQAAAAUAAAAAAAAABQAAAAAAAAABAAAANg",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAYAAAAAAAAABgAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					13,
+					1,
+					"left_delete",
+					null,
+					"AQAAAAAAAAAAAAAAAAAAAAAAAAABAAAAYA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAEAAAAAAAAAAQAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					19,
+					4,
+					"left_delete",
+					null,
+					"BAAAAAMAAAAAAAAAAwAAAAAAAAABAAAANQIAAAAAAAAAAgAAAAAAAAABAAAAIAEAAAAAAAAAAQAAAAAAAAABAAAAMAAAAAAAAAAAAAAAAAAAAAABAAAAMQ",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAMAAAAAAAAABAAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					22,
+					1,
+					"insert",
+					{
+						"characters": "5"
+					},
+					"AQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvw"
 				]
 			]
 		},
 		{
-			"file": "HackerRank/xor-se.cpp",
+			"file": "output.txt",
 			"settings":
 			{
-				"buffer_size": 2833,
-				"line_ending": "Unix"
+				"buffer_size": 45,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
 			},
 			"undo_stack":
 			[
+				[
+					6,
+					1,
+					"revert",
+					null,
+					"AgAAAAAAAAAAAAAAAAAAAAAAAAABAAAAMgAAAAAAAAAAAQAAAAAAAAAAAAAA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAEAAAAAAAAAAQAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					10,
+					1,
+					"revert",
+					null,
+					"BAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAMwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					19,
+					1,
+					"revert",
+					null,
+					"BAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAMwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					36,
+					1,
+					"revert",
+					null,
+					"AgAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAMHg3OGZlMTQAAAAAAAAAAAgAAAAAAAAAAAAAAA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					38,
+					1,
+					"revert",
+					null,
+					"AgAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAMHg3OGZlMTQAAAAAAAAAAAgAAAAAAAAAAAAAAA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					39,
+					1,
+					"revert",
+					null,
+					"AgAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAMHg3OGZlMTQAAAAAAAAAAAgAAAAAAAAAAAAAAA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					40,
+					1,
+					"revert",
+					null,
+					"AgAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAMHg3OGZlMTQAAAAAAAAAAAgAAAAAAAAAAAAAAA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					44,
+					1,
+					"revert",
+					null,
+					"AgAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAMHg3OGZlMTQAAAAAAAAAABEAAAAAAAAAAAAAAA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					50,
+					1,
+					"revert",
+					null,
+					"AwAAAAAAAAAAAAAAAAAAAAAAAAARAAAAMHg3OGZlMTQKMHg3OGZlMDgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAkAAAAAAAAAEQAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					52,
+					1,
+					"revert",
+					null,
+					"AgAAAAAAAAAAAAAAAAAAAAAAAAADAAAANAo0AAAAAAAAAAAIAAAAAAAAAAAAAAA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					53,
+					1,
+					"revert",
+					null,
+					"AgAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAMTM3Njg5MjkAAAAAAAAAAAEAAAAAAAAAAAAAAA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					57,
+					1,
+					"revert",
+					null,
+					"AwAAAAAAAAAAAAAAAAAAAAAAAAABAAAAMQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					63,
+					1,
+					"revert",
+					null,
+					"AgAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAMTE0MDk2MzMAAAAAAAAAAAgAAAAAAAAAAAAAAA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					64,
+					1,
+					"revert",
+					null,
+					"AgAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAMTM0NDEyNDkAAAAAAAAAAAgAAAAAAAAAAAAAAA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					67,
+					1,
+					"revert",
+					null,
+					"AwAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAMTI3ODU4ODkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALQAAAAAAAAAAAAAA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAcAAAAAAAAABwAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					76,
+					1,
+					"revert",
+					null,
+					"AwAAAAAAAAAAAAAAAAAAAAAAAAAtAAAAMHhjOTE0NjAKMHhjOTE0NjQKMHhjOTE0NjgKMHhjOTE0NmMKMHhjOTE0NzAKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAACwAAAAAAAAALAAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					78,
+					1,
+					"revert",
+					null,
+					"AwAAAAAAAAAAAAAAAAAAAAAAAAAtAAAAMHhjYjE0NjAKMHhjYjE0NjQKMHhjYjE0NjgKMHhjYjE0NmMKMHhjYjE0NzAKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					97,
+					1,
+					"revert",
+					null,
+					"AwAAAAAAAAAAAAAAAAAAAAAAAAAtAAAAMHhiYjE0NjAKMHhiYjE0NjgKMHhiYjE0NzAKMHhiYjE0NzgKMHhiYjE0ODAKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAACQAAAAAAAAALAAAAAAAAAAAAAAAAADwvw"
+				],
+				[
+					99,
+					1,
+					"revert",
+					null,
+					"CAAAAAAAAAAAAAAAAAAAAAAAAAAtAAAAMHhiNDE0NjAKMHhiNDE0NjQKMHhiNDE0NjgKMHhiNDE0NmMKMHhiNDE0NzAKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAAAAAAAAAAAALQAAAAAAAAAAAAAAAAAAAAAAAAAtAAAAAAAAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAAAAAAAAAAAALQAAAAAAAAAAAAAAAAAAAAAAAAAtAAAAAAAAAAAAAAA",
+					"BgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvw"
+				]
 			]
 		}
 	],
@@ -669,6 +918,10 @@
 		"selected_items":
 		[
 			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
 				"insta",
 				"Package Control: Install Package"
 			],
@@ -679,10 +932,6 @@
 			[
 				"install",
 				"Package Control: Install Package"
-			],
-			[
-				"remove",
-				"Package Control: Remove Package"
 			],
 			[
 				"term",
@@ -819,10 +1068,33 @@
 	"expanded_folders":
 	[
 		"/C/Users/raghu/Competitive-Programming-Archive",
-		"/C/Users/raghu/Competitive-Programming-Archive/HackerRank"
+		"/C/Users/raghu/Competitive-Programming-Archive/AtCoder",
+		"/C/Users/raghu/Competitive-Programming-Archive/AtCoder/abc164",
+		"/C/Users/raghu/Competitive-Programming-Archive/LeetCode"
 	],
 	"file_history":
 	[
+		"/C/Users/raghu/Competitive-Programming-Archive/test.cpp",
+		"/C/Users/raghu/Competitive-Programming-Archive/Codeforces/1409/1409A.cpp",
+		"/C/Users/raghu/Competitive-Programming-Archive/Codeforces/1433/1433A.cpp",
+		"/C/Users/raghu/Competitive-Programming-Archive/Codeforces/1472/1472A.cpp",
+		"/C/Users/raghu/Competitive-Programming-Archive/Codeforces/1472/1472B.cpp",
+		"/C/Users/raghu/Competitive-Programming-Archive/Codeforces/1451/1451A.cpp",
+		"/C/Users/raghu/Competitive-Programming-Archive/Codeforces/1436/1436A.cpp",
+		"/C/Users/raghu/Competitive-Programming-Archive/Codeforces/1422/1422A.cpp",
+		"/C/Users/raghu/Competitive-Programming-Archive/Codeforces/1417/1417A.cpp",
+		"/C/Users/raghu/Competitive-Programming-Archive/Codeforces/1401/1401A.cpp",
+		"/C/Users/raghu/Competitive-Programming-Archive/Codeforces/1420/1420A.cpp",
+		"/C/Users/raghu/Competitive-Programming-Archive/Codeforces/1406/1406A.cpp",
+		"/C/Users/raghu/Competitive-Programming-Archive/Codeforces/1436/1436B.cpp",
+		"/C/Users/raghu/Competitive-Programming-Archive/Codeforces/1395/1395A.cpp",
+		"/C/Users/raghu/Competitive-Programming-Archive/Codeforces/1418/1418A.cpp",
+		"/C/Users/raghu/Competitive-Programming-Archive/Codeforces/1447/1447B.cpp",
+		"/C/Users/raghu/Competitive-Programming-Archive/Codeforces/1409/1409B.cpp",
+		"/C/Users/raghu/Competitive-Programming-Archive/Codeforces/1401/1401B.cpp",
+		"/C/Users/raghu/Competitive-Programming-Archive/Codeforces/1339/1339A.cpp",
+		"/C/Users/raghu/Competitive-Programming-Archive/Codeforces/1462/1462C.cpp",
+		"/C/Users/raghu/Competitive-Programming-Archive/HackerRank/the-great-xor.cpp",
 		"/C/Users/raghu/Competitive-Programming-Archive/HackerRank/sherlock-and-cost.cpp",
 		"/C/Users/raghu/Competitive-Programming-Archive/HackerRank/dynamic-programming-classics-the-longest-common-subsequence.cpp",
 		"/C/Users/raghu/Competitive-Programming-Archive/SPOJ/INVCNT.cpp",
@@ -929,36 +1201,15 @@
 		"/C/Users/raghu/Competitive-Programming/LeetCode/1000.cpp",
 		"/C/Users/raghu/AppData/Roaming/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
 		"/C/Users/raghu/AppData/Roaming/Sublime Text 3/Packages/User/Terminal (Windows).sublime-settings",
-		"/C/Users/raghu/AppData/Roaming/Sublime Text 3/Packages/User/Terminal.sublime-settings",
-		"/C/Users/raghu/Competitive-Programming/Codeforces/1339/1339B.cpp",
-		"/C/Users/raghu/Competitive-Programming/Codeforces/1339/1339C.cpp",
-		"/C/Users/raghu/Competitive-Programming/Codeforces/1339/1339A.cpp",
-		"/C/Users/raghu/Competitive-Programming/Codeforces/1436/1436D.cpp",
-		"/C/Users/raghu/Competitive-Programming/Codeforces/1436/1436C.cpp",
-		"/C/Users/raghu/Competitive-Programming/Codeforces/1436/a.out",
-		"/C/Users/raghu/AppData/Roaming/Sublime Text 3/Packages/User/nck.sublime-snippet",
-		"/C/Users/raghu/AppData/Roaming/Sublime Text 3/Packages/User/fact.sublime-snippet",
-		"/C/Users/raghu/AppData/Roaming/Sublime Text 3/Packages/User/npk.sublime-snippet",
-		"/C/Users/raghu/Competitive-Programming/Codeforces/1436/1436B.cpp",
-		"/C/Users/raghu/AppData/Roaming/Sublime Text 3/Packages/User/is-prime.sublime-snippet",
-		"/C/Users/raghu/Competitive-Programming/Codeforces/1436/1436A.cpp",
-		"/C/Users/raghu/Competitive-Programming/Codeforces/1422/1422A.cpp",
-		"/C/Users/raghu/Competitive-Programming/Codeforces/1422/1422B.cpp",
-		"/C/Users/raghu/Competitive-Programming/Codeforces/1422/1422C.cpp",
-		"/C/Users/raghu/Competitive-Programming/LeetCode/39.cpp",
-		"/C/Users/raghu/Competitive-Programming/Codeforces/1417/1417C.cpp",
-		"/C/Users/raghu/Competitive-Programming/LeetCode/154.cpp",
-		"/C/Users/raghu/Competitive-Programming/Codeforces/1395/1395D.cpp",
-		"/C/Users/raghu/Competitive-Programming/Codeforces/1395/1395C.cpp",
-		"/C/Users/raghu/Competitive-Programming/Codeforces/1395/1395B.cpp"
+		"/C/Users/raghu/AppData/Roaming/Sublime Text 3/Packages/User/Terminal.sublime-settings"
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 32.0
 	},
 	"find_in_files":
 	{
-		"height": 123.2,
+		"height": 166.4,
 		"where_history":
 		[
 			""
@@ -969,6 +1220,11 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"int",
+			"long",
+			"int",
+			"c",
+			"long",
 			"11.04.2020 06:19:09 PM",
 			"freopen"
 		],
@@ -994,26 +1250,150 @@
 			[
 				{
 					"buffer": 0,
-					"file": "HackerRank/the-great-xor.cpp",
-					"semi_transient": false,
+					"file": "LeetCode/287.cpp",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 2798,
+						"buffer_size": 505,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1015,
-								1015
+								308,
+								308
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/C++/C++.sublime-syntax",
 							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "LeetCode/765.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1061,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								667,
+								667
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 415.2,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "LeetCode/41.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 715,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								427,
+								427
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 68.8,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "LeetCode/689.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1475,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								847,
+								847
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 414.4,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "LeetCode/456.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 610,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								243,
+								243
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1024,21 +1404,21 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "HackerRank/xor-se.cpp",
+					"buffer": 5,
+					"file": "LeetCode/3.cpp",
 					"selected": true,
-					"semi_transient": true,
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2833,
+						"buffer_size": 686,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								526,
-								526
+								471,
+								471
 							]
 						],
 						"settings":
@@ -1046,6 +1426,41 @@
 							"syntax": "Packages/C++/C++.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 138.4,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"file": "input.txt",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								1
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1060,21 +1475,46 @@
 		{
 			"sheets":
 			[
-			]
-		},
-		{
-			"sheets":
-			[
+				{
+					"buffer": 7,
+					"file": "output.txt",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 45,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								45,
+								45
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 38.0
+		"height": 32.0
 	},
 	"input":
 	{
-		"height": 50.0
+		"height": 57.6
 	},
 	"layout":
 	{
@@ -1102,13 +1542,13 @@
 		"cols":
 		[
 			0.0,
-			0.753740648379,
+			0.708149766555,
 			1.0
 		],
 		"rows":
 		[
 			0.0,
-			0.5,
+			0.487939698492,
 			1.0
 		]
 	},
@@ -1167,7 +1607,7 @@
 	},
 	"output.exec":
 	{
-		"height": 43.2
+		"height": 61.6
 	},
 	"output.find_results":
 	{
@@ -1177,7 +1617,7 @@
 	"project": "Competitive-Programming-Archive.sublime-project",
 	"replace":
 	{
-		"height": 72.0
+		"height": 60.8
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1186,6 +1626,102 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"3.cpp",
+				"LeetCode\\3.cpp"
+			],
+			[
+				"456",
+				"LeetCode\\456.cpp"
+			],
+			[
+				"689",
+				"LeetCode\\689.cpp"
+			],
+			[
+				"41",
+				"LeetCode\\41.cpp"
+			],
+			[
+				"765",
+				"LeetCode\\765.cpp"
+			],
+			[
+				"1401B",
+				"Codeforces\\1401\\1401B.cpp"
+			],
+			[
+				"1409B",
+				"Codeforces\\1409\\1409B.cpp"
+			],
+			[
+				"1447B",
+				"Codeforces\\1447\\1447B.cpp"
+			],
+			[
+				"1418A",
+				"Codeforces\\1418\\1418A.cpp"
+			],
+			[
+				"1395A",
+				"Codeforces\\1395\\1395A.cpp"
+			],
+			[
+				"1436B",
+				"Codeforces\\1436\\1436B.cpp"
+			],
+			[
+				"1406A",
+				"Codeforces\\1406\\1406A.cpp"
+			],
+			[
+				"1420A",
+				"Codeforces\\1420\\1420A.cpp"
+			],
+			[
+				"1339A",
+				"Codeforces\\1339\\1339A.cpp"
+			],
+			[
+				"1462C",
+				"Codeforces\\1462\\1462C.cpp"
+			],
+			[
+				"1401a",
+				"Codeforces\\1401\\1401A.cpp"
+			],
+			[
+				"1417A",
+				"Codeforces\\1417\\1417A.cpp"
+			],
+			[
+				"1422A",
+				"Codeforces\\1422\\1422A.cpp"
+			],
+			[
+				"1436A",
+				"Codeforces\\1436\\1436A.cpp"
+			],
+			[
+				"1451A",
+				"Codeforces\\1451\\1451A.cpp"
+			],
+			[
+				"1472B",
+				"Codeforces\\1472\\1472B.cpp"
+			],
+			[
+				"1472",
+				"Codeforces\\1472\\1472A.cpp"
+			],
+			[
+				"1433A",
+				"Codeforces\\1433\\1433A.cpp"
+			],
+			[
+				"1409A",
+				"Codeforces\\1409\\1409A.cpp"
+			],
 			[
 				"816B",
 				"Codeforces\\816B.cpp"
@@ -1225,10 +1761,6 @@
 			[
 				"45",
 				"LeetCode\\45.cpp"
-			],
-			[
-				"765",
-				"LeetCode\\765.cpp"
 			],
 			[
 				"839",
@@ -1391,10 +1923,6 @@
 				"Codeforces/1203/1203D2.cpp"
 			],
 			[
-				"689",
-				"LeetCode/689.cpp"
-			],
-			[
 				"201",
 				"LeetCode/201.cpp"
 			],
@@ -1423,16 +1951,8 @@
 				"Hackerrank/sam_substrings.cpp"
 			],
 			[
-				"41",
-				"LeetCode/41.cpp"
-			],
-			[
 				"986",
 				"LeetCode/986.cpp"
-			],
-			[
-				"456",
-				"LeetCode/456.cpp"
 			],
 			[
 				"funn",
@@ -1628,7 +2148,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 253.0,
+	"side_bar_width": 291.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

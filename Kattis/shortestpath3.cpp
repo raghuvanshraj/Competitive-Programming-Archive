@@ -104,7 +104,7 @@ ostream& operator<<(ostream &output, pair<T, U> &b) {
 vector<int> bellman_ford(vector<tuple<int, int, int>> &edges, int n, int u) {
 	vector<int> distance(n, INF);
 	distance[u] = 0;
-	for (int i = 0; i <= n - 1; ++i) {
+	for (int i = 0; i < n - 1; ++i) {
 		for (auto e : edges) {
 			int u, v, w;
 			tie(u, v, w) = e;
@@ -114,7 +114,7 @@ vector<int> bellman_ford(vector<tuple<int, int, int>> &edges, int n, int u) {
 		}
 	}
 
-	for (int i = 0; i <= n - 1; ++i) {
+	for (int i = 0; i < n - 1; ++i) {
 		for (auto e : edges) {
 			int u, v, w;
 			tie(u, v, w) = e;
