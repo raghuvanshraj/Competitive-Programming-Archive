@@ -12,7 +12,7 @@ bool isPossible(vector<int> &target) {
 	int n = target.size();
 	priority_queue<int> max_heap(target.begin(), target.end());
 	LL s = accumulate(target.begin(), target.end(), 0LL);
-	while (s > 1 and max_heap.top() > s / 2) {
+	while (max_heap.top() > s / 2) {
 		int curr = max_heap.top();
 		max_heap.pop();
 		s -= curr;

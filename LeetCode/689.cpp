@@ -16,11 +16,6 @@ vector<int> maxSumOfThreeSubarrays(vector<int> &arr, int k) {
 		sum -= arr[i - k + 1];
 	}
 
-	for (int i = 0; i <= n - k; ++i) {
-		cout << sums[i] << ' ';
-	}
-	cout << endl;
-
 	vector<int> left(n - k + 1), right(n - k + 1);
 	int curr_max = INT_MIN;
 	int idx = -1;
