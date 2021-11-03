@@ -106,15 +106,12 @@ bool solve(vector<int> &pos, int d, int c) {
 	int x = pos[0];
 	c--;
 	for (int i = 1; i <= n - 1; ++i) {
-		if (c == 0) {
-			break;
-		}
 		if (pos[i] - x >= d) {
 			x = pos[i];
 			c--;
 		}
 	}
-	return c == 0;
+	return c <= 0;
 }
 
 int main(int argc, char const *argv[]) {
