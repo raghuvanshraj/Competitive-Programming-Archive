@@ -6,10 +6,6 @@
 
 using namespace std;
 
-static bool comp(int a, int b) {
-	return a * a < b * b;
-}
-
 int maximalSquare(vector<vector<char>> &matrix) {
 
 }

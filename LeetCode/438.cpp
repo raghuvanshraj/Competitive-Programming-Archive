@@ -6,6 +6,16 @@
 
 using namespace std;
 
+bool check(vector<int> &s_cnt, vector<int> &p_cnt) {
+	for (int i = 0; i <= 25; ++i) {
+		if (p_cnt[i] != 0 and s_cnt[i] != p_cnt[i]) {
+			return false;
+		}
+	}
+
+	return true;
+}
+
 vector<int> findAnagrams(string s, string p) {
 	int n = s.size();
 	int m = p.size();
@@ -13,52 +23,28 @@ vector<int> findAnagrams(string s, string p) {
 		return vector<int>();
 	}
 
+	set<char> elems(p.begin(), p.end());
+	int unq_elems = elems.size();
 	vector<int> s_cnt(26), p_cnt(26);
+
 	for (char x : p) {
 		p_cnt[x - 'a']++;
 	}
 
-	set<int> elems(p.begin(), p.end());
-	int unq_elems = elems.size();
-	int cnt = 0;
 	for (int i = 0; i <= m - 2; ++i) {
-		int x = s[i] - 'a';
-		s_cnt[x]++;
-		if (s_cnt[x] == p_cnt[x]) {
-			cnt++;
-		} else if (s_cnt[x] > p_cnt[x] and p_cnt[x] != 0) {
-			cnt--;
-		}
+		s_cnt[s[i] - 'a']++;
 	}
 
 	int i = 0, j = m - 1;
 	vector<int> ans;
 	while (j <= n - 1) {
-		int x = s[j++] - 'a';
-		s_cnt[x]++;
-		if (s_cnt[x] == p_cnt[x]) {
-			cnt++;
-		} else if (s_cnt[x] > p_cnt[x] and p_cnt[x] != 0) {
-			cnt--;
-		}
+		s_cnt[s[j++] - 'a']++;
 
-		if (cnt == unq_elems) {
+		if (check(s_cnt, p_cnt)) {
 			ans.push_back(i);
 		}
 
-		int y = s[i++] - 'a';
-		// cout << s.substr(i - 1, m) << ' ' << cnt << ' ' << s_cnt[x] << ' ' << p_cnt[y] << endl;
-		if (s_cnt[y] == p_cnt[y]) {
-			cnt--;
-		}
-		s_cnt[y]--;
-		if (s_cnt[y] == p_cnt[y] and p_cnt[y] != 0) {
-			cnt++;
-		}
-	}
-
-	if (cnt == unq_elems) {
-		ans.push_back(i);
+		s_cnt[s[i++] - 'a']--;
 	}
 
 	return ans;
