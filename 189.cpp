@@ -6,23 +6,21 @@
 
 using namespace std;
 
-int next_idx(int x, int k, int n) {
-	return (x + k) % n;
-}
-
 void rotate(vector<int> &arr, int k) {
-	int vis = 0;
 	int n = arr.size();
-	for (int i = 0; i <= n - 1; ++i) {
+	k %= n;
+	int g = __gcd(n, k);
+	for (int i = 0; i <= g - 1; ++i) {
 		int j = i;
 		int x = arr[i];
-		do {
-			int y = arr[next_idx(j, k, n)];
-			arr[next_idx(j, k, n)] = x;
-			x = y;
-
-			j = next_idx(j, k, n);
-		} while (j != i);
+		while (true) {
+			swap(arr[j], x);
+			j = (j + k) % n;
+			if (j == i) {
+				break;
+			}
+		}
+		swap(arr[i], x);
 	}
 }
 
