@@ -15,7 +15,7 @@ int wordCount(vector<string> &s_words, vector<string> &t_words) {
 		for (char c : s[i]) {
 			int x = c - 'a';
 			cnt[x]++;
-			pre_cnt[c][cnt[x]]++;
+			pre_cnt[x][cnt[x]]++;
 		}
 	}
 }
