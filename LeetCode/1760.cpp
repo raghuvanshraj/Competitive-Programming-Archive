@@ -28,7 +28,6 @@ int minimumSize(vector<int> &arr, int max_ops) {
 	int n = arr.size();
 	int l = 1;
 	int r = *max_element(arr.begin(), arr.end());
-
 	int ans = r;
 	while (l <= r) {
 		int mid = (l + r) / 2;
