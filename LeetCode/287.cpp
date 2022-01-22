@@ -1,23 +1,26 @@
 /**
  *    author:	vulkan
- *    created:	07.06.2020 11:22:11 AM
+ *    created:	21.01.2022 09:06:42 PM
 **/
 #include <bits/stdc++.h>
 
 using namespace std;
 
 int findDuplicate(vector<int> &arr) {
-	int n = arr.size();
-	for (int i = 0; i <= n - 1; ++i) {
-		int x = abs(arr[i]) - 1;
-		if (arr[x] > 0) {
-			arr[x] *= -1;
-		} else {
-			return x + 1;
-		}
+	int sp = arr[0];
+	int fp = arr[arr[0]];
+	while (sp != fp) {
+		sp = arr[sp];
+		fp = arr[arr[fp]];
 	}
 
-	return -1;
+	fp = 0;
+	while (fp != sp) {
+		fp = arr[fp];
+		sp = arr[sp];
+	}
+
+	return sp;
 }
 
 int main(int argc, char const *argv[]) {
