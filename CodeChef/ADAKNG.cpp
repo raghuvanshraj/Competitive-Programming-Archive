@@ -1,13 +1,12 @@
 /**
  *    author:	vulkan
- *    created:	02.05.2020 02:43:35 PM
+ *    created:	26.03.2022 12:44:25 PM
 **/
 #include <bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
 
 #define MOD 1000000007
-#define MAX 1000000000
-#define MIN -1000000000
+#define INF 1000000000
 
 #define SET_ARR(arr,n,val) for (int i = 0; i < n; ++i) arr[i] = val
 #define SET_ARR2D(arr,n,m,val) for (int i = 0; i < n; ++i) for (int j = 0; j < m; ++j) arr[i][j] = val
@@ -90,26 +89,63 @@ pair<T, U> operator*(const pair<T, U> &b, const V &a) {
 	return {a * b.first, a * b.second};
 }
 
-template <
-    typename T,
-    typename = typename enable_if<is_arithmetic<T>::value, T>::type,
-    typename U,
-    typename = typename enable_if<is_arithmetic<U>::value, U>::type
-    >
-istream & operator>>(istream &input, pair<T, U> &b) {
+template <typename T, typename U>
+istream& operator>>(istream &input, pair<T, U> &b) {
 	input >> b.first >> b.second;
 	return input;
 }
 
-template <
-    typename T,
-    typename = typename enable_if<is_arithmetic<T>::value, T>::type,
-    typename U,
-    typename = typename enable_if<is_arithmetic<U>::value, U>::type
-    >
-ostream & operator<<(ostream &output, pair<T, U> &b) {
+template <typename T, typename U>
+ostream& operator<<(ostream &output, pair<T, U> &b) {
 	output << b.first << ' ' << b.second;
 	return output;
+}
+
+bool is_valid(int i, int j, int n, int m) {
+	return (
+	           (i >= 1 and i <= n) and
+	           (j >= 1 and j <= m)
+	       );
+}
+
+int bfs(int i, int j, int k) {
+	queue<tuple<int, int, int>> qu;
+	qu.push({i, j, k});
+	auto visited = vectors(9, 9, bool());
+	visited[i][j] = true;
+	vector<pair<int, int>> adj = {
+		{1, 0},
+		{0, 1},
+		{ -1, 0},
+		{0, -1},
+		{ -1, -1},
+		{1, 1},
+		{ -1, 1},
+		{1, -1}
+	};
+	int cnt = 0;
+	while (not qu.empty()) {
+		int x, y, k;
+		auto xyk = qu.front();
+		tie(x, y, k) = xyk;
+		qu.pop();
+		cnt++;
+		if (k == 0) {
+			continue;
+		}
+		for (auto ij : adj) {
+			int i, j;
+			tie(i, j) = ij;
+			int xi = x + i;
+			int yj = y + j;
+			if (is_valid(xi, yj, 8, 8) and not visited[xi][yj]) {
+				visited[xi][yj] = true;
+				qu.push({xi, yj, k - 1});
+			}
+		}
+	}
+
+	return cnt;
 }
 
 int main(int argc, char const *argv[]) {
@@ -118,44 +154,10 @@ int main(int argc, char const *argv[]) {
 
 	int T;
 	cin >> T;
-	for (int t = 0; t < T; ++t) {
-		int x, y;
-		string s;
-		cin >> x >> y >> s;
-
-		pair<int, int> curr_pos = {x, y};
-		int time = 0;
-		bool found = false;
-		for (char c : s) {
-			if (abs(curr_pos.first) + abs(curr_pos.second) <= time) {
-				found = true;
-				break;
-			}
-
-			pair<int, int> diff;
-			if (c == 'N') {
-				diff = {0, 1};
-			} else if (c == 'S') {
-				diff = {0, -1};
-			} else if (c == 'W') {
-				diff = { -1, 0};
-			} else {
-				diff = {1, 0};
-			}
-
-			curr_pos = curr_pos + diff;
-			time++;
-		}
-
-		if (not found and abs(curr_pos.first) + abs(curr_pos.second) <= time) {
-			found = true;
-		}
-
-		if (found) {
-			cout << "Case #" << t + 1 << ": " << time << endl;
-		} else {
-			cout << "Case #" << t + 1 << ": " << "IMPOSSIBLE" << endl;
-		}
+	while (T--) {
+		int r, c, k;
+		cin >> r >> c >> k;
+		cout << bfs(r, c, k) << endl;
 	}
 
 	return 0;

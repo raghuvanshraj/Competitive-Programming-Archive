@@ -1,13 +1,13 @@
 /**
  *    author:	vulkan
- *    created:	10.05.2020 05:30:55 PM
+ *    created:	26.03.2022 02:22:12 PM
 **/
 #include <bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
 
 #define MOD 1000000007
-#define MAX 1000000000
-#define MIN -1000000000
+#define INF 1000000000
+#define MAX 100000
 
 #define SET_ARR(arr,n,val) for (int i = 0; i < n; ++i) arr[i] = val
 #define SET_ARR2D(arr,n,m,val) for (int i = 0; i < n; ++i) for (int j = 0; j < m; ++j) arr[i][j] = val
@@ -102,31 +102,33 @@ ostream& operator<<(ostream &output, pair<T, U> &b) {
 	return output;
 }
 
+vector<LL> f;
+
+void precompute(int n) {
+	for (int i = 1; i <= n; i += 2) {
+		for (int j = i; j <= n; j += i) {
+			f[j] += i;
+		}
+	}
+
+	for (int i = 1; i <= n; ++i) {
+		f[i] += f[i - 1];
+	}
+}
+
 int main(int argc, char const *argv[]) {
 	ios::sync_with_stdio(false);
 	cin.tie(0);
 
-	string s, t;
-	cin >> s >> t;
-	int n = s.size(), m = t.size();
-	int j = 0;
-	bool ans = true;
-	for (int i = 0; i <= n - 1; ++i) {
-		if (s[i] == t[j]) {
-			j++;
-		} else {
-			ans = false;
-		}
-	}
+	f = vector<LL>(MAX + 1);
+	precompute(MAX);
 
-	if (n + 1 != m) {
-		ans = false;
-	}
-
-	if (ans) {
-		cout << "Yes";
-	} else {
-		cout << "No";
+	int T;
+	cin >> T;
+	while (T--) {
+		int l, r;
+		cin >> l >> r;
+		cout << f[r] - f[l - 1] << endl;
 	}
 
 	return 0;

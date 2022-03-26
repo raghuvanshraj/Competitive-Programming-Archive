@@ -1,12 +1,13 @@
 /**
  *    author:	vulkan
- *    created:	29.08.2020 06:42:38 PM
+ *    created:	26.03.2022 02:03:09 PM
 **/
 #include <bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
 
 #define MOD 1000000007
 #define INF 1000000000
+#define MAX 1000000
 
 #define SET_ARR(arr,n,val) for (int i = 0; i < n; ++i) arr[i] = val
 #define SET_ARR2D(arr,n,m,val) for (int i = 0; i < n; ++i) for (int j = 0; j < m; ++j) arr[i][j] = val
@@ -101,69 +102,46 @@ ostream& operator<<(ostream &output, pair<T, U> &b) {
 	return output;
 }
 
-map<int, bool> vis;
+vector<bool> is_prime;
+vector<int> ans;
 
-bool prime_factorize(int n) {
+void sieve(int n) {
+	is_prime[0] = is_prime[1] = false;
 	for (int i = 2; i * i <= n; ++i) {
-		if (n % i == 0) {
-			if (vis[i]) {
-				return false;
-			} else {
-				vis[i] = true;
+		if (is_prime[i]) {
+			for (int j = i * i; j <= n; j += i) {
+				is_prime[j] = false;
 			}
 		}
-		while (n % i == 0) {
-			n /= i;
-		}
 	}
-
-	if (n != 1) {
-		if (vis[n]) {
-			return false;
-		} else {
-			vis[n] = true;
-		}
-	}
-
-	return true;
 }
 
-bool check_pairwise(vector<int> &arr) {
-	for (int x : arr) {
-		if (not prime_factorize(x)) {
-			return false;
+void precompute_ans(int n) {
+	for (int i = 3; i <= n - 2; ++i) {
+		if (is_prime[i] and is_prime[i + 2]) {
+			ans[i + 2]++;
 		}
 	}
 
-	return true;
-}
-
-bool check_setwise(vector<int> &arr) {
-	int gcd = arr[0];
-	for (int x : arr) {
-		gcd = __gcd(gcd, x);
+	for (int i = 1; i <= n; ++i) {
+		ans[i] += ans[i - 1];
 	}
-
-	return gcd == 1;
 }
 
 int main(int argc, char const *argv[]) {
 	ios::sync_with_stdio(false);
 	cin.tie(0);
 
-	int n;
-	cin >> n;
-	vector<int> arr(n);
-	INPUT_ARR(arr, n);
-
-	if (check_pairwise(arr)) {
-		cout << "pairwise coprime" << endl;
-	} else {
-		if (check_setwise(arr)) {
-			cout << "setwise coprime" << endl;
-		} else {
-			cout << "not coprime" << endl;
-		}
+	int T;
+	cin >> T;
+	is_prime = vector<bool>(MAX + 1, true);
+	ans = vector<int>(MAX + 1);
+	sieve(MAX);
+	precompute_ans(MAX);
+	while (T--) {
+		int n;
+		cin >> n;
+		cout << ans[n] << endl;
 	}
 
 	return 0;

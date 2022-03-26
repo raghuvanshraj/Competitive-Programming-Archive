@@ -1,13 +1,12 @@
 /**
  *    author:	vulkan
- *    created:	07.05.2020 01:30:26 PM
+ *    created:	26.03.2022 02:30:21 PM
 **/
 #include <bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
 
 #define MOD 1000000007
-#define MAX 1000000000
-#define MIN -1000000000
+#define INF 1000000000
 
 #define SET_ARR(arr,n,val) for (int i = 0; i < n; ++i) arr[i] = val
 #define SET_ARR2D(arr,n,m,val) for (int i = 0; i < n; ++i) for (int j = 0; j < m; ++j) arr[i][j] = val
@@ -90,24 +89,14 @@ pair<T, U> operator*(const pair<T, U> &b, const V &a) {
 	return {a * b.first, a * b.second};
 }
 
-template <
-    typename T,
-    typename = typename enable_if<is_arithmetic<T>::value, T>::type,
-    typename U,
-    typename = typename enable_if<is_arithmetic<U>::value, U>::type
-    >
-istream & operator>>(istream &input, pair<T, U> &b) {
+template <typename T, typename U>
+istream& operator>>(istream &input, pair<T, U> &b) {
 	input >> b.first >> b.second;
 	return input;
 }
 
-template <
-    typename T,
-    typename = typename enable_if<is_arithmetic<T>::value, T>::type,
-    typename U,
-    typename = typename enable_if<is_arithmetic<U>::value, U>::type
-    >
-ostream & operator<<(ostream &output, pair<T, U> &b) {
+template <typename T, typename U>
+ostream& operator<<(ostream &output, pair<T, U> &b) {
 	output << b.first << ' ' << b.second;
 	return output;
 }
@@ -116,11 +105,24 @@ int main(int argc, char const *argv[]) {
 	ios::sync_with_stdio(false);
 	cin.tie(0);
 
-	int s, w;
-	cin >> s >> w;
-	string ans = (w >= s) ? "unsafe" : "safe";
+	int T;
+	cin >> T;
+	while (T--) {
+		int n;
+		cin >> n;
+		vector<int> arr(n);
+		for (int i = 0; i <= n - 1; ++i) {
+			cin >> arr[i];
+		}
+		vector<LL> dp(n, 1);
+		for (int i = 1; i <= n - 1; ++i) {
+			if (arr[i] >= arr[i - 1]) {
+				dp[i] += dp[i - 1];
+			}
+		}
 
-	cout << ans;
+		cout << accumulate(dp.begin(), dp.end(), 0LL) << endl;
+	}
 
 	return 0;
 }

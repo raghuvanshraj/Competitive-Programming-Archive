@@ -1,6 +1,6 @@
 /**
  *    author:	vulkan
- *    created:	29.08.2020 05:43:52 PM
+ *    created:	25.03.2022 06:48:53 PM
 **/
 #include <bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
@@ -101,20 +101,36 @@ ostream& operator<<(ostream &output, pair<T, U> &b) {
 	return output;
 }
 
-int bfs(vector<vector<int>> &adj_list, vector<bool> &visited, int u) {
-	int n = adj_list.size();
-	queue<int> qu;
-	qu.push(u);
-	visited[u] = true;
+bool is_valid(int i, int j, int n, int m) {
+	return (
+	           (i >= 0 and i < n) and
+	           (j >= 0 and j < m)
+	       );
+}
+
+int bfs(vector<string> &matrix, vector<vector<bool>> &visited, int i, int j) {
+	int n = matrix.size();
+	int m = matrix[0].size();
+	queue<pair<int, int>> qu;
+	qu.push({i, j});
+	visited[i][j] = true;
 	int cnt = 0;
+	vector<pair<int, int>> adj = {
+		{1, 0},
+		{0, 1},
+		{ -1, 0},
+		{0, -1}
+	};
 	while (not qu.empty()) {
-		int x = qu.front();
+		auto[x, y] = qu.front();
 		cnt++;
 		qu.pop();
-		for (int y : adj_list[x]) {
-			if (not visited[y]) {
-				visited[y] = true;
-				qu.push(y);
+		for (auto[i, j] : adj) {
+			int xi = x + i;
+			int yj = y + j;
+			if (is_valid(xi, yj, n, m) and matrix[xi][yj] == '1' and not visited[xi][yj]) {
+				visited[xi][yj] = true;
+				qu.push({xi, yj});
 			}
 		}
 	}
@@ -126,27 +142,35 @@ int main(int argc, char const *argv[]) {
 	ios::sync_with_stdio(false);
 	cin.tie(0);
 
-	int n, m;
-	cin >> n >> m;
-	auto adj_list = vectors(n, vector<int>());
-	while (m--) {
-		int a, b;
-		cin >> a >> b;
-		a--, b--;
-
-		adj_list[a].push_back(b);
-		adj_list[b].push_back(a);
-	}
-
-	vector<bool> vis(n);
-	int ans = 0;
-	for (int i = 0; i <= n - 1; ++i) {
-		if (not vis[i]) {
-			ans = max(ans, bfs(adj_list, vis, i));
+	int T;
+	cin >> T;
+	while (T--) {
+		int n, m;
+		cin >> n >> m;
+		vector<string> matrix(n);
+		auto visited = vectors(n, m, bool());
+		for (int i = 0; i <= n - 1; ++i) {
+			cin >> matrix[i];
 		}
-	}
 
-	cout << ans;
+		vector<int> cnts;
+		for (int i = 0; i <= n - 1; ++i) {
+			for (int j = 0; j <= m - 1; ++j) {
+				if (matrix[i][j] == '1' and not visited[i][j]) {
+					cnts.push_back(bfs(matrix, visited, i, j));
+				}
+			}
+		}
+
+		sort(cnts.begin(), cnts.end(), greater<int>());
+		int ans = 0;
+		int sz = cnts.size();
+		for (int i = 1; i <= sz - 1; i += 2) {
+			ans += cnts[i];
+		}
+
+		cout << ans << endl;
+	}
 
 	return 0;
 }
