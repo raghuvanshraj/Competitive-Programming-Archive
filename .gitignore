@@ -1,4 +1,4 @@
 input.txt
 output.txt
-test.cpp
+*.cpp
 *.exe
